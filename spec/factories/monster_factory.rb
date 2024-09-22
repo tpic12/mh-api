@@ -23,11 +23,12 @@ FactoryBot.define do
       [
         {
           type: "water",
-          rating: 3
+          rating: 3,
+          trait: "charged"
         },
         {
           type: "dragon",
-          rating: 2
+          rating: 2,
         }
       ]
     end
