@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe Monster, type: :model do
   describe '#validations' do
 
-    let(:monster) {build(:monster)}
+    let(:monster) {create(:monster)}
 
     it 'tests that factory is valid' do
       expect(monster).to be_valid
