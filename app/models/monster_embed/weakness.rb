@@ -6,5 +6,6 @@ module MonsterEmbed
   
     field :type, type: String
     field :rating, type: Integer
+    field :attribute, type: String, optional: true
   end
 end

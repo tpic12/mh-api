@@ -15,7 +15,7 @@ class Monster
   field :elements, type: Array
   field :ailments, type: Array
   field :resistances, type: Array
-  field :threatLevel, type: String, as: :threat_level
+  field :threatLevel, type: Integer, as: :threat_level
 
   validates_presence_of :name
 end

@@ -7,7 +7,7 @@ FactoryBot.define do
     elements { %w[fire blast] }
     ailments { %w[blast] }
     resistances { %w[thunder blast] }
-    threat_level { 'none' }
+    threat_level { 1 }
 
     locations do
       [
