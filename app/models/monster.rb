@@ -18,4 +18,8 @@ class Monster
   field :threatLevel, type: Integer, as: :threat_level
 
   validates_presence_of :name
+
+  index({ name: 1 })
+  index({ species: 1 })
+  index({ 'locations.name' => 1 })
 end
