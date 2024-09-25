@@ -1,6 +1,6 @@
 require "test_helper"
 
-class MonstersControllerTest < ActionDispatch::IntegrationTest
+class WorldMonstersControllerTest < ActionDispatch::IntegrationTest
   # test "the truth" do
   #   assert true
   # end

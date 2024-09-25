@@ -1,8 +1,8 @@
-class Monster
+class WorldMonster
   include Mongoid::Document
   include Mongoid::Timestamps
 
-  store_in collection: "monsters"
+  store_in collection: "world_monsters"
 
   embeds_many :locations, class_name: "MonsterEmbed::Location", store_as: :locations
   embeds_many :weaknesses, class_name: "MonsterEmbed::Weakness", store_as: :weaknesses
