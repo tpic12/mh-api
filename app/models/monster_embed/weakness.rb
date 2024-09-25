@@ -2,7 +2,7 @@ module MonsterEmbed
   class Weakness
     include Mongoid::Document
   
-    embedded_in :monster
+    embedded_in :world_monster
   
     field :type, type: String
     field :rating, type: Integer

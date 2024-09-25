@@ -1,14 +1,14 @@
 require 'json'
 
 # Load JSON file
-file_path = Rails.root.join('db', 'seeds', 'monsters.json')
+file_path = Rails.root.join('db', 'seeds', 'world_monsters.json')
 monsters = JSON.parse(File.read(file_path))
 
 # Seed data into the database
 monsters.each do |monster_data|
   puts "Seeding: #{monster_data["name"]}"
   begin
-    monster = Monster.create!(
+    monster = WorldMonster.create!(
       name: monster_data["name"],
       species: monster_data["species"],
       description: monster_data["description"],

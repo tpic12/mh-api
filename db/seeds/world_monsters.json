@@ -65,7 +65,6 @@
       }
     ]
   },
-
   {
     "name": "Ancient Leshen",
     "render": "color/render/ancient_leshen.png",
@@ -118,7 +117,6 @@
       }
     ]
   },
-
   {
     "name": "Anjanath",
     "render": "color/render/anjanath.png",
@@ -153,7 +151,6 @@
       }
     ]
   },
-
   {
     "name": "Azure Rathalos",
     "render": "color/render/azure_rathalos.png",
@@ -187,7 +184,6 @@
       }
     ]
   },
-
   {
     "name": "Banbaro",
     "render": "color/render/banbaro.png",
@@ -240,7 +236,6 @@
       }
     ]
   },
-
   {
     "name": "Barioth",
     "render": "color/render/barioth.png",
@@ -270,7 +265,6 @@
       }
     ]
   },
-
   {
     "name": "Barroth",
     "render": "color/render/barroth.png",
@@ -302,7 +296,6 @@
       }
     ]
   },
-
   {
     "name": "Bazelgeuse",
     "render": "color/render/bazelgeuse.png",
@@ -348,7 +341,6 @@
       }
     ]
   },
-
   {
     "name": "Behemoth",
     "render": "color/render/behemoth.png",
@@ -379,7 +371,6 @@
       }
     ]
   },
-
   {
     "name": "Beotodus",
     "render": "color/render/beotodus.png",
@@ -408,7 +399,6 @@
       }
     ]
   },
-
   {
     "name": "Black Diablos",
     "render": "color/render/black_diablos.png",
@@ -438,7 +428,6 @@
       }
     ]
   },
-
   {
     "name": "Blackveil Vaal Hazak",
     "render": "color/render/blackveil_vaal_hazak.png",
@@ -469,7 +458,6 @@
       }
     ]
   },
-
   {
     "name": "Brachydios",
     "render": "color/render/brachydios.png",
@@ -500,7 +488,6 @@
       }
     ]
   },
-
   {
     "name": "Brute Tigrex",
     "render": "color/render/brute_tigrex.png",
@@ -531,7 +518,6 @@
       }
     ]
   },
-
   {
     "name": "Coral Pukei-Pukei",
     "render": "color/render/coral_pukei-pukei.png",
@@ -562,7 +548,6 @@
       }
     ]
   },
-
   {
     "name": "Deviljho",
     "render": "color/render/deviljho.png",
@@ -616,7 +601,6 @@
       }
     ]
   },
-
   {
     "name": "Diablos",
     "render": "color/render/diablos.png",
@@ -647,7 +631,6 @@
       }
     ]
   },
-
   {
     "name": "Dodogama",
     "render": "color/render/dodogama.png",
@@ -677,7 +660,6 @@
       }
     ]
   },
-
   {
     "name": "Ebony Odogaron",
     "render": "color/render/ebony_odogaron.png",
@@ -728,7 +710,6 @@
       }
     ]
   },
-
   {
     "name": "Fulgur Anjanath",
     "render": "color/render/fulgur_anjanath.png",
@@ -805,7 +786,6 @@
       }
     ]
   },
-
   {
     "name": "Glavenus",
     "render": "color/render/glavenus.png",
@@ -843,7 +823,6 @@
       }
     ]
   },
-
   {
     "name": "Gold Rathian",
     "render": "color/render/gold_rathian.png",
@@ -877,7 +856,6 @@
       }
     ]
   },
-
   {
     "name": "Great Girros",
     "render": "color/render/great_girros.png",
@@ -907,7 +885,6 @@
       }
     ]
   },
-
   {
     "name": "Great Jagras",
     "render": "color/render/great_jagras.png",
@@ -937,7 +914,6 @@
       }
     ]
   },
-
   {
     "name": "Jyuratodus",
     "render": "color/render/jyuratodus.png",
@@ -968,7 +944,6 @@
       }
     ]
   },
-
   {
     "name": "Kirin",
     "species": "Elder Dragon",
@@ -996,7 +971,6 @@
       }
     ]
   },
-
   {
     "name": "Kulu-Ya-Ku",
     "render": "color/render/kulu-ya-ku.png",
@@ -1027,7 +1001,6 @@
       }
     ]
   },
-
   {
     "name": "Kulve Taroth",
     "render": "color/render/kulve_taroth.png",
@@ -1059,7 +1032,6 @@
       }
     ]
   },
-
   {
     "name": "Kushala Daora",
     "render": "color/render/kushala_daora.png",
@@ -1092,7 +1064,6 @@
       }
     ]
   },
-
   {
     "name": "Lavasioth",
     "render": "color/render/lavasioth.png",
@@ -1129,7 +1100,6 @@
       }
     ]
   },
-
   {
     "name": "Legiana",
     "render": "color/render/legiana.png",
@@ -1163,7 +1133,6 @@
       }
     ]
   },
-
   {
     "name": "Leshen",
     "render": "color/render/leshen.png",
@@ -1192,7 +1161,6 @@
       }
     ]
   },
-
   {
     "name": "Lunastra",
     "render": "color/render/lunastra.png",
@@ -1226,7 +1194,6 @@
       }
     ]
   },
-
   {
     "name": "Nargacuga",
     "render": "color/render/nargacuga.png",
@@ -1260,7 +1227,6 @@
       }
     ]
   },
-
   {
     "name": "Namielle",
     "render": "color/render/namielle.png",
@@ -1290,7 +1256,6 @@
       }
     ]
   },
-
   {
     "name": "Nergigante",
     "render": "color/render/nergigante.png",
@@ -1321,7 +1286,6 @@
       }
     ]
   },
-
   {
     "name": "Nightshade Paolumu",
     "render": "color/render/nightshade_paolumu.png",
@@ -1355,7 +1319,6 @@
       }
     ]
   },
-
   {
     "name": "Odogaron",
     "render": "color/render/odogaron.png",
@@ -1389,7 +1352,6 @@
       }
     ]
   },
-
   {
     "name": "Paolumu",
     "render": "color/render/paolumu.png",
@@ -1420,7 +1382,6 @@
       }
     ]
   },
-
   {
     "name": "Pink Rathian",
     "render": "color/render/pink_rathian.png",
@@ -1455,7 +1416,6 @@
       }
     ]
   },
-
   {
     "name": "Pukei-Pukei",
     "render": "color/render/pukei-pukei.png",
@@ -1489,7 +1449,6 @@
       }
     ]
   },
-
   {
     "name": "Radobaan",
     "render": "color/render/radobaan.png",
@@ -1596,7 +1555,6 @@
       }
     ]
   },
-
   {
     "name": "Rathalos",
     "render": "color/render/rathalos.png",
@@ -1630,7 +1588,6 @@
       }
     ]
   },
-
   {
     "name": "Rathian",
     "render": "color/render/rathian.png",
@@ -1661,7 +1618,6 @@
       }
     ]
   },
-
   {
     "name": "Ruiner Nergigante",
     "render": "color/render/ruiner_nergigante.png",
@@ -1712,7 +1668,6 @@
       }
     ]
   },
-
   {
     "name": "Safi jiiva",
     "render": "color/render/safi'jiiva.png",
@@ -1745,7 +1700,6 @@
       }
     ]
   },
-
   {
     "name": "Savage Deviljho",
     "render": "color/render/savage_deviljho.png",
@@ -1809,7 +1763,6 @@
       }
     ]
   },
-
   {
     "name": "Scarred Yian Garuga",
     "render": "color/render/scarred_yian_garuga.png",
@@ -1839,7 +1792,6 @@
       }
     ]
   },
-
   {
     "name": "Seething Bazelgeuse",
     "render": "color/render/seething_bazelgeuse.png",
@@ -1870,7 +1822,6 @@
       }
     ]
   },
-
   {
     "name": "Shara Ishvalda",
     "render": "color/render/shara_ishvalda.png",
@@ -1900,7 +1851,6 @@
       }
     ]
   },
-
   {
     "name": "Shrieking Legiana",
     "render": "color/render/shrieking_legiana.png",
@@ -1931,7 +1881,6 @@
       }
     ]
   },
-
   {
     "name": "Silver Rathalos",
     "render": "color/render/silver_rathalos.png",
@@ -1965,7 +1914,6 @@
       }
     ]
   },
-
   {
     "name": "Stygian Zinogre",
     "render": "color/render/stygian_zinogre.png",
@@ -1997,7 +1945,6 @@
       }
     ]
   },
-
   {
     "name": "Teostra",
     "render": "color/render/teostra.png",
@@ -2031,7 +1978,6 @@
       }
     ]
   },
-
   {
     "name": "Tigrex",
     "render": "color/render/tigrex.png",
@@ -2082,7 +2028,6 @@
       }
     ]
   },
-
   {
     "name": "Tobi-Kadachi",
     "render": "color/render/tobi-kadachi.png",
@@ -2113,7 +2058,6 @@
       }
     ]
   },
-
   {
     "name": "Tzitzi-Ya-Ku",
     "render": "color/render/tzitzi-ya-ku.png",
@@ -2144,7 +2088,6 @@
       }
     ]
   },
-
   {
     "name": "Uragaan",
     "render": "color/render/uragaan.png",
@@ -2175,7 +2118,6 @@
       }
     ]
   },
-
   {
     "name": "Vaal Hazak",
     "render": "color/render/vaal_hazak.png",
@@ -2205,7 +2147,6 @@
       }
     ]
   },
-
   {
     "name": "Velkhana",
     "render": "color/render/velkhana.png",
@@ -2251,7 +2192,6 @@
       }
     ]
   },
-
   {
     "name": "Viper Tobi-Kadachi",
     "render": "color/render/viper_tobi-kadachi.png",
@@ -2282,7 +2222,6 @@
       }
     ]
   },
-
   {
     "name": "Xeno jiiva",
     "render": "color/render/xenojiiva.png",
@@ -2312,7 +2251,6 @@
       }
     ]
   },
-
   {
     "name": "Yian Garuga",
     "render": "color/render/yian_garuga.png",
@@ -2341,7 +2279,6 @@
       }
     ]
   },
-
   {
     "name": "Zinogre",
     "render": "color/render/zinogre.png",
@@ -2375,7 +2312,6 @@
       }
     ]
   },
-
   {
     "name": "Zorah Magdaros",
     "render": "color/render/zorah_magdaros.png",

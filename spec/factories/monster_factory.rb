@@ -1,5 +1,5 @@
 FactoryBot.define do
-  factory :monster do
+  factory :world_monster do
     name { "rathalos" }
     species { "flying wyvern" }
     description { Faker::Lorem.sentence }
