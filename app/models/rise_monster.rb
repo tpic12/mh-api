@@ -16,7 +16,7 @@ class RiseMonster
   field :ailments, type: Array
   field :resistances, type: Array
   field :threatLevel, type: Integer, as: :threat_level
-  field :is_apex, type: Boolean, as: :isApex
+  field :rampageRole, type: String, as: :rampage_role
 
   validates_presence_of :name
 
