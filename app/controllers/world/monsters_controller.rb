@@ -23,7 +23,7 @@ module World
       return match unless match.empty?
 
       fz = FuzzyMatch.new(WorldMonster.all, :read => :name)
-      fz.find(name)
+      [fz.find(name)]
     end
   end
 end
