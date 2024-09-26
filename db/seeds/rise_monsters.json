@@ -1,0 +1,482 @@
+[
+  {
+    "name": "Aknosom",
+    "render": "",
+    "icon": "",
+    "species": "Bird Wyvern",
+    "description": "Tending to stand on one leg, this monster somewhat resembles an umbrella. The Aknosom is highly territorial; it will spread out its wings and show off its characteristics comb to scare off threats. It also bears flammable venom that burns fiercely and lingers on the ground when lit. Draw the beast to water for an easier fight.",
+    "useful_info": "It can manipulate the umbrella-shaped crest on its head to curl up, fan out, or shut tight. Observe its shape closely, and you might be able to predict which attack it will use next.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight"],
+    "resistances": ["Fire", "Dragon"],
+    "threat_level": 2,
+    "rampage_role": "targeter",
+    "weaknesses": [
+      {
+        "type": "thunder",
+        "rating": 3
+      },
+      {
+        "type": "water",
+        "rating": 2
+      },
+      {
+        "type": "ice",
+        "rating": 1
+      },
+      {
+        "type": "blast",
+        "rating": 2
+      },
+      {
+        "type": "poison",
+        "rating": 1
+      },
+      {
+        "type": "sleep",
+        "rating": 1
+      },
+      {
+        "type": "paralysis",
+        "rating": 1
+      },
+      {
+        "type": "stun",
+        "rating": 1
+      }
+    ],
+    "locations": [
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Frost Islands",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Almudron",
+    "render": "",
+    "icon": "",
+    "species": "Leviathan",
+    "description": "As its name implies, Almudron spends a great deal of time lurking in mud—at least until it emerges to smother approaching prey. From its tail oozes a strange golden fluid, which Almudron uses to dissolve the ground beneath its prey, arresting them in a mire so that it can drag them under.",
+    "useful_info": "The mud-covered tail is what makes this species strong; attacking this outer layer will chip away at it, so removing this muddy shroud should be your priority. The gold-glimmering mud is harmful to the touch, so mind the color of your surroundings while hunting these beasts.",
+    "elements": ["Water"],
+    "ailments": ["Waterblight"],
+    "resistances": ["Water"],
+    "threat_level": 7,
+    "rampage_role": "stalker",
+    "weaknesses": [
+      {
+        "type": "fire",
+        "rating": 3
+      },
+      {
+        "type": "ice",
+        "rating": 2
+      },
+      {
+        "type": "poison",
+        "rating": 1
+      },
+      {
+        "type": "sleep",
+        "rating": 1
+      },
+      {
+        "type": "paralysis",
+        "rating": 1
+      },
+      {
+        "type": "stun",
+        "rating": 1
+      }
+    ],
+    "locations": [
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Anjanath",
+    "render": "",
+    "icon": "",
+    "species": "Brute Wyvern",
+    "description": "The belligerent monster will attack anything without hesitation. The membrane along its tail fans out when it is provoked—a behavior theorized to be either an act of intimidation or thermoregulation, as it has been known to do so when it breathes fire.",
+    "useful_info": "Anjanath spits fiery blasts from its mouth utilizing a unique organ in its throat when it is angered. When it does so, focus attacks on its throat to gain an edge.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight"],
+    "resistances": ["Fire", "Dragon"],
+    "threat_level": 6,
+    "rampage_role": "gate crasher",
+    "weaknesses": [
+      { "type": "water", "rating": 3 },
+      { "type": "ice", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Lava Caverns",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Apex Arzuros",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Beast",
+    "description": "An Arzuros so mighty, it was crowned an Apex. It is eternally possessed by wrath and terror, possibly due to the myriad wounds that cover its body. Its forelegs are massive, deft removers of any who'd stand in their way. The call of an Apex unleashes its tortured anger on nearby beasts, driving them into a frenzy.",
+    "useful_info": "An angry Apex Arzuros will trigger a devastating move, closing in while thrashing the ground, hitting obstacles with a colossal strike. Push on against an enraged Apex to quickly rid it of its range and steady its temper.",
+    "elements": [],
+    "ailments": [],
+    "resistances": ["Water", "Dragon"],
+    "threat_level": 8,
+    "rampage_role": "apex",
+    "weaknesses": [
+      { "type": "fire", "rating": 1 },
+      { "type": "ice", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Red Stronghold",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Apex Diablos",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "A Diablos so mighty, it was crowned an Apex. It is eternally possessed by wrath and terror, possibly due to the myriad wounds that cover its body. Its supremely developed horns add to the lethality of its charge. The call of an Apex unleashes its tortured anger on nearby beasts, driving them into a frenzy.",
+    "useful_info": "An angry Apex Diablos will trigger a devastating move, launching into an unstoppable charge, bringing down everything that stands in its path. Push on against an enraged Apex to quickly rid it of its rage and steady its temper.",
+    "elements": [],
+    "ailments": [],
+    "resistances": ["Fire"],
+    "threat_level": 10,
+    "rampage_role": "apex",
+    "weaknesses": [
+      { "type": "water", "rating": 1 },
+      { "type": "ice", "rating": 2 },
+      { "type": "dragon", "rating": 1 },
+      { "type": "poison", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Red Stronghold",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Apex Mizutsune",
+    "render": "",
+    "icon": "",
+    "species": "Leviathan",
+    "description": "A Mizutsune so mighty, it was crowned an Apex. It is eternally possessed by wrath and terror, possibly due to the myriad wounds that cover its body. Its bubbles and huge tail have no trouble sending foes packing. The call of an Apex unleashes its tortured anger on nearby beasts, driving them into a frenzy.",
+    "useful_info": "An angry Apex Mizutsune will trigger a devastating move, wreaking havoc to its surrounding by shooting out explosive bubbles. These can be dealt with by using kunai, ranged weapon shots, or ballistae. Push on against an enraged Apex to quickly rid it of its rage and steady its temper.",
+    "elements": ["Water"],
+    "ailments": ["Waterblight", "Bubble"],
+    "resistances": ["Water", "Fire"],
+    "threat_level": 9,
+    "rampage_role": "apex",
+    "weaknesses": [
+      { "type": "thunder", "rating": 3 },
+      { "type": "dragon", "rating": 1 },
+      { "type": "poison", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Red Stronghold",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Frost Islands",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Infernal Springs",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Apex Rathalos",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "A Rathalos so mighty, it was crowned an Apex. It is eternally possessed by wrath and tremor, possibly due to the myriad wounds that covers its body. Its every breath releases flaming jets that single the very air. The call of an Apex unleashes its tortured anger on nearby beasts, driving them into a frenzy.",
+    "useful_info": "An angry Apex Rathalos will trigger a devastating move, blasting a terrifying breath, destroying everything around it. Push on against an enraged Apex to quickly rid it of its rage and steady its temper.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight", "Poison"],
+    "resistances": ["Water", "Fire", "Ice"],
+    "threat_level": 9,
+    "rampage_role": "apex",
+    "weaknesses": [
+      { "type": "thunder", "rating": 1 },
+      { "type": "dragon", "rating": 3 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Red Stronghold",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Lava Caverns",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Infernal Springs",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Apex Rathian",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "A Rathian so mighty, it was crowned an Apex. It is eternally possessed by wrath and terror, possibly due to the myriad wounds that cover its body. Its tail oozes a venom far deadlier than any of a normal monster. The call of an Apex unleashes its tortured anger on nearby beasts, driving them into a frenzy.",
+    "useful_info": "An angry Apex Rathian will trigger a devastating move, spraying poisonous thorns in all directions, creating toxic fields wherever they land. Push on against an enraged Apex to quickly rid it of its rage and steady its temper.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight", "Poison"],
+    "resistances": ["Fire"],
+    "threat_level": 8,
+    "rampage_role": "apex",
+    "weaknesses": [
+      { "type": "thunder", "rating": 2 },
+      { "type": "dragon", "rating": 3 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Red Stronghold",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Lava Caverns",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Apex Zinogre",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Wyvern",
+    "description": "A Zinogre so mighty, it was crowned an Apex. Its body is covered in scars and wounds as if it had been caught in a storm, and it's seemingly always dominated by wrath and terror. Its forelegs -- and their every strike -- brim with ferocious sparks. The call of an Apex unleashes its tortured anger on nearby beasts, driving them into a frenzy.",
+    "useful_info": "An angry Apex Zinogre will trigger a devastating move, causing a lightning strike upon the Thunderbugs it controls, after which it will pounce viciously on its prey. Push on against an enraged Apex to quickly rid it of its rage and steady its temper.",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "resistances": ["Fire", "Thunder", "Dragon"],
+    "threat_level": 10,
+    "rampage_role": "apex",
+    "weaknesses": [
+      { "type": "ice", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "poison", "rating": 1 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Red Stronghold",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Infernal Springs",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Arzuros",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Beast",
+    "description": "Beasts known to dwell in humid forest and mountain regions. Though known more for fishing and standing upright to collect honey, their thick claws and heavy forearm plating allow them to deliver powerful blows to any aggressor. ",
+    "useful_info": "Arzuros love Honey so much that they may steal any you might be carrying and start to eat it on the spot, leaving them vulnerable. Carry around a stash of honey to exploit their sweet tooth.",
+    "elements": [],
+    "ailments": [],
+    "resistances": ["Dragon", "Water"],
+    "threat_level": 1,
+    "rampage_role": "stalker",
+    "weaknesses": [
+      { "type": "ice", "rating": 2 },
+      { "type": "fire", "rating": 3 },
+      { "type": "thunder", "rating": 1 },
+      { "type": "stun", "rating": 2 },
+      { "type": "poison", "rating": 3 },
+      { "type": "blast", "rating": 2 },
+      { "type": "sleep", "rating": 3 },
+      { "type": "paralysis", "rating": 3 }
+    ],
+    "locations": [
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Astalos",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "Large Flying Wyverns with crest-shaped organs that let them control vast amounts of electricity. Astalos vibrate these organs on their head, forked tail, and brilliant wings to charge the respective body part with electricity, yielding tremendous strength and an amplified attack range. Violent to a fault, witnesses have observed them using all their might to drive intruders from their territory.",
+    "useful_info": "Attacks with their head, wings, or tail will be charged with electricity. The movement, attack range, and strength of each part changes when electrified; when all parts are charged, these creatures become particularly dangerous, so targeting electrified parts to dispel their charge is essential.",
+    "elements": ["Thunder"],
+    "ailments": ["Paralysis"],
+    "resistances": ["Dragon", "Thunder"],
+    "threat_level": 7,
+    "weaknesses": [
+      { "type": "ice", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "paralysis", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Somnacanth",
+    "render": "",
+    "icon": "",
+    "species": "Leviathan",
+    "description": "Light illuminates the dust scattered around this subspecies, making their fantastical appearance shimmer softly. Aurora Somnacanth sprays icy blasts in place of sleeping powder, attacking all who dare enter their territory. They use the permanent cold emanating from their bodies to freeze the vicinity, and then the frozen surface to move around swiftly.",
+    "useful_info": "Aurora Somnacanth is weakest at its head but note that it is also where most of its attacks will come from. It may be difficult to reach its head when it is standing on its tail. In such cases, focus your attacks on its tail instead.",
+    "elements": ["Ice"],
+    "ailments": ["Iceblight"],
+    "resistances": ["Water", "Ice", "Dragon", "Thunder"],
+    "threat_level": 6,
+    "weaknesses": [
+      { "type": "fire", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "paralysis", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Frost Islands",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      }
+    ]
+  }
+]
