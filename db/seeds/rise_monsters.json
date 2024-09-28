@@ -934,5 +934,357 @@
         "color": "0xBF5726"
       }
     ]
+  },
+  {
+    "name": "Gaismagorm",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "A gargantuan monster living in the darkest depths since ancient times. Gaismagorm's rock-like forearms boast tenacious strength which allows it to burrow underground. It has a symbiotic relationship with the Qurio, and feeds on their life force for energy.",
+    "useful_info": "Gaismagorm attacks with the explosive, crystallized Qurio on its carapace. Break these crystals by attacking, but beware: Gaismagorm can consume the shards and use them to deliver even more explosive attacks. When Gaismagorm climbs the pit's wall, it's readying a strong attack. Use the ballistae provided to stop it.",
+    "elements": [],
+    "ailments": ["Blastblight", "Bloodblight"],
+    "resistances": ["Water", "Ice"],
+    "threat_level": 10,
+    "weaknesses": [
+      { "type": "dragon", "rating": 3 },
+      { "type": "thundar", "rating": 2 },
+      { "type": "fire", "rating": 1 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [
+      {
+        "name": "Special",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Garangolm",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Beast",
+    "description": "Garangolm are generally placid, living in regions with fertile soil. Their sap-like fluids can promote plant growth, forging a symbiotic relationship with flora that grows in their bodies. They can also use that sap to harden plants or the surrounding soil, outfitting their bodies and enhancing their attacks.",
+    "useful_info": "Garangolm will reinforce their arms by covering them in elements. When their arms are in this state, continuously attacking the elemental covering will eventually break it off, toppling the beast.",
+    "elements": ["Fire"],
+    "ailments": ["Blastblight"],
+    "resistances": ["Water", "Dragon"],
+    "threat_level": 6,
+    "weaknesses": [
+      { "type": "thundar", "rating": 2 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Gore Magala",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "They lack visual receptors, and so to make up for this they heighten their senses by scattering scales from their wings to ascertain the locations of lifeforms. At the peak of their senses, feelers extend from their head, their wings unfurl, and they become frenzied. By this point, the Gore Magala have used their scales to precisely detect where its opponents may lie.",
+    "useful_info": "Coming into contact with patches of scales may infect you with the Frenzy virus. You'll lose your natural ability to heal and become more susceptible to all forms of attack. Keep attacking before infection sets in to overcome it. Its Frenzied State can be dispelled by attacking the head.",
+    "elements": [],
+    "ailments": ["Frenzy Virus"],
+    "resistances": ["Water", "Ice"],
+    "threat_level": 7,
+    "weaknesses": [
+      { "type": "fire", "rating": 2 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Gold Rathian",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "Known as the Gold Fire Wyvern, or alternatively the Golden Moon, as inspired by their divine appearance. These wyverns are infamous for their strong scales and attacks with their reinforced tails, giving these beasts exceptional combat ability. In battle, their attacks grow only more intense when in their Incandescent state.",
+    "useful_info": "Gold Rathian will use their tail to greater effect compared to standard Rathian, so watch out as their tail strikes will come at you from different ranges and trajectories. When in their Incandescent state, their tail attacks grow fiercer, but their head also becomes weaker.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight", "Poison"],
+    "resistances": ["Fire", "Dragon"],
+    "threat_level": 9,
+    "weaknesses": [
+      { "type": "thunder", "rating": 3 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Lava Caverns",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Goss Harag",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Beast",
+    "description": "A monster native to ice-cold climates. Covered in fur so thick it keeps out the harsh frost, it roams the snowy plains in search of prey. It can inhale the cold air to freeze its own bodily fluids and then spit them out to create icy blades on its arms. When riled up, the Goss Harag turns red and becomes exceedingly dangerous.",
+    "useful_info": "In hitting the accumulated frost on its forelegs, a hunter risks being afflicted with iceblight, but is rewarded by the creature being toppled when the frost is shattered. Areas that appear red when the creature is angry are the most susceptible, so focus your efforts there!",
+    "elements": ["Ice"],
+    "ailments": ["Iceblight"],
+    "resistances": ["Water", "Ice", "Dragon"],
+    "threat_level": 7,
+    "weaknesses": [
+      { "type": "fire", "rating": 3 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Frost Islands",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Great Baggi",
+    "render": "",
+    "icon": "",
+    "species": "Bird Wyvern",
+    "description": "A carnivorous bird wyvern. Noted for their projecting cranial crests and bluish-white skin that's adapted to snowy climates. Great Baggi craftily command other Baggi to surround their prey and stun them with a tranquilizing fluid.",
+    "useful_info": "It commands many lesser Baggi to form a wave of all-out offense; a tactful hunter will pick off the herd one by one and avoid being surrounded. The Great Baggi spits out a sedative venom that will knock you out if you're struck by it, but having Energy Drinks on hand helps offset that threat.",
+    "elements": [],
+    "ailments": ["Sleep"],
+    "resistances": ["Ice", "Dragon"],
+    "threat_level": 1,
+    "weaknesses": [
+      { "type": "fire", "rating": 3 },
+      { "type": "water", "rating": 2 },
+      { "type": "thunder", "rating": 2 },
+      { "type": "blast", "rating": 3 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 3 }
+    ],
+    "locations": [
+      {
+        "name": "Frost Islands",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Great Izuchi",
+    "render": "",
+    "icon": "",
+    "species": "Bird Wyvern",
+    "description": "The Great Izuchi is the alpha of its pack, identified by its larger build, upended white fur, and scythe-like tail. A Great Izuchi forms a herd of many smaller Izuchi and selects two from the group to accompany it on territory patrols.",
+    "useful_info": "Their razor-sharp tail attacks in combination with their synchronicity make them a force to be reckoned with. Take out their leader to send the herd into disarray and pick them off easily.",
+    "elements": [],
+    "ailments": [],
+    "resistances": ["Dragon"],
+    "threat_level": 1,
+    "rampage_role": "stalker",
+    "weaknesses": [
+      { "type": "water", "rating": 2 },
+      { "type": "thunder", "rating": 3 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 3 },
+      { "type": "stun", "rating": 2 },
+      { "type": "paralysis", "rating": 3 },
+      { "type": "sleep", "rating": 3 }
+    ],
+    "locations": [
+      {
+        "name": "Frost Islands",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Great Wroggi",
+    "render": "",
+    "icon": "",
+    "species": "Bird Wyvern",
+    "description": "Wroggi are bird wyverns that travel in packs that are led by the largest and most toxic member. Be careful when one raises its head and its poison sac expands -- that signals that it's about to spit a cloud of poisonous mist.",
+    "useful_info": "Remember to bring some Antidotes to deal with its poison. Taking out the sac around a Great Wroggi's neck will also prevent it from producing venom, so aim for the head.",
+    "elements": [],
+    "ailments": ["Poison"],
+    "resistances": ["Fire", "Dragon", "Thunder"],
+    "threat_level": 2,
+    "rampage_role": "stalker",
+    "weaknesses": [
+      { "type": "water", "rating": 2 },
+      { "type": "ice", "rating": 3 },
+      { "type": "blast", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 3 },
+      { "type": "sleep", "rating": 3 }
+    ],
+    "locations": [
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Lava Caverns",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Jyuratodus",
+    "render": "",
+    "icon": "",
+    "species": "Piscine Wyvern",
+    "description": "A piscine wyvern that inhabits swamps, utilizing the mud there to hunt and survive. It wallows in the mire to maximize cutaneous respiration and preserve the toughness of its scales. The sludge it spits is highly viscous, so watch where you step, lest you get stuck in it.",
+    "useful_info": "A Jyuratodus's mud-caked carapace is tough, so use water-elemental weapons to dissolve the mud and get to its squishy core. Stepping in its mud slows you down, so pay attention to your footing.",
+    "elements": ["Water"],
+    "ailments": ["Waterblight"],
+    "resistances": ["Water", "Dragon", "Ice"],
+    "threat_level": 4,
+    "weaknesses": [
+      { "type": "thunder", "rating": 3 },
+      { "type": "poison", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "stun", "rating": 2 }
+    ],
+    "locations": [{ "name": "Flooded Forest", "color": "0xBF5726" }]
+  },
+  {
+    "name": "Khezu",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "Khezu are loathsome wyverns that dwell in caves and other dark places. All but blind, Khezu hunt by smell. Their tail has evolved to cling to walls and ceilings. After using an electric shock to paralyze their prey, they extend their long neck and pounce.",
+    "useful_info": "The Khezu will cling to walls or the ceiling to unleash its electric attacks from above. Use Wiredash to get to it and knock it down, or exhaust it to weaken its electricity.",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "resistances": ["Thunder", "Water", "Dragon", "Ice"],
+    "threat_level": 2,
+    "rampage_role": "gate crasher",
+    "weaknesses": [
+      { "type": "fire", "rating": 3 },
+      { "type": "poison", "rating": 3 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [
+      { "name": "Frost Islands", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Kulu-Ya-Ku",
+    "render": "",
+    "icon": "",
+    "species": "Bird Wyvern",
+    "description": "A bird wyvern that has developed limbs capable of carrying objects. It has been spotted stealing eggs from nests. If attacked while carrying an egg, it will drop the egg in fright and flee. When engaged, a Kulu-Ya-Ku will dig up a small boulder to shield itself against threats or use in its attacks.",
+    "useful_info": "A Kulu-Ya-Ku uses small boulders to shield itself or smash against its enemies. Force it to drop whatever it's holding by staggering or blinding it, or if it's holding a cracked boulder, attack it to break it.",
+    "elements": [],
+    "ailments": [],
+    "resistances": [],
+    "threat_level": 2,
+    "weaknesses": [
+      { "type": "water", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "stun", "rating": 2 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [
+      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xBF5726" },
+      { "name": "Shrine Ruins", "color": "0xBF5726" },
+      { "name": "Sandy Plains", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Kushala Daora",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "It's difficult to even get close to one of these metallic elder dragons, but some claim better odds if the creature is weakened with poison, or has its horn broken, limiting the amount of wind pressure it can muster.",
+    "useful_info": "Beckons dark dragon wind pressure as the whirlwinds surrounding its body seethe more wildly, and will deflect any non-piercing bow or bowgun shots not aimed at its head.",
+    "elements": [],
+    "ailments": ["Iceblight", "Dragonblight"],
+    "resistances": ["Ice", "Water"],
+    "threat_level": 8,
+    "weaknesses": [
+      { "type": "thunder", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "blast", "rating": 3 }
+    ],
+    "locations": [
+      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "The Citadel", "color": "0xBF5726" },
+      { "name": "The Jungle", "color": "0xBF5726" },
+      { "name": "Sandy Plains", "color": "0xBF5726" }
+    ]
   }
 ]
