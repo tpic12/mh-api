@@ -478,5 +478,204 @@
         "color": "0xBF5726"
       }
     ]
+  },
+  {
+    "name": "Barioth",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "Wyverns that rule the eternally frozen Tundra. Barioth use their forelegs, tail and their spiked scales to traverse the slippery ice with ease; this ability makes them very difficult to keep up with.",
+    "useful_info": "Destroy the spikes on its winged forelegs and it won't be as zippy on the ice anymore! If you really want to slow a Barioth down, aim at those spikes.",
+    "elements": ["Ice"],
+    "ailments": ["Iceblight"],
+    "resistances": ["Water", "Ice", "Dragon"],
+    "threat_level": 5,
+    "weaknesses": [
+      { "type": "fire", "rating": 1 },
+      { "type": "thunder", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Frost Islands",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Barroth",
+    "render": "",
+    "icon": "",
+    "species": "Brute Wyvern",
+    "description": "Barroth usually remains beneath the mud, perhaps to shield themselves from heat; they are even known to attack by flinging mud. They will charge in a frenzy at anything that disturbs their bogs.",
+    "useful_info": "If you get hit by the mud a Barroth flings around, you'll get muddy, which means that any pro hunter should priorize attacking the muddy parts of the monster to clean it off! Once you've got rid of all that mud, fighting it will be some good, clean fun!",
+    "elements": ["Water"],
+    "ailments": ["Waterblight"],
+    "resistances": ["Fire", "Ice"],
+    "threat_level": 3,
+    "weaknesses": [
+      { "type": "fire", "rating": 3 },
+      { "type": "ice", "rating": 2 },
+      { "type": "blast", "rating": 3 },
+      { "type": "poison", "rating": 3 },
+      { "type": "paralysis", "rating": 3 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Basarios",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "These juvenile Gravios are famous for their rock-hard carapaces. They often burrow underground, mimicking rocks and savaging oblivious miners. Because their carapaces are tougher than that of a full-grown Gravios, they'll attack a threat by charging at it. They are also known to emit a poisonous gas.",
+    "useful_info": "Its thick, hardened shell is impervious to most attacks, making it tricky to approach, but if you can break its abdominal plating, you should be able to rip off its shell and deal some heavy hits. Attacks that produce heat will soften up the hide and make the job easier.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight", "Poison", "Sleep"],
+    "resistances": ["Dragon"],
+    "threat_level": 3,
+    "rampage_role": "gate crasher",
+    "weaknesses": [
+      { "type": "dragon", "rating": 2 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "sleep", "rating": 3 }
+    ],
+    "locations": [
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Lava Caverns",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Bazelgeuse",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "A nefarious flying wyvern that travels the world in search of prey. It scatters its own explosives scales over a wide area to prey on whatever gets caught in the blast. In some places, this has earned it the nickname \"Bomber Wyvern\".",
+    "useful_info": "The formidable scales that the Bazelgeuse scatters explode after receiving an impact but the time they take to regenerate can be used as a chance to attack. When its scales turn red hot, they will explode immediately and require caution, however, parts of the body will be soft too - the perfect time to attack.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight"],
+    "resistances": ["Fire", "Water"],
+    "threat_level": 8,
+    "weaknesses": [
+      { "type": "thundar", "rating": 2 },
+      { "type": "ice", "rating": 1 },
+      { "type": "dragon", "rating": 1 },
+      { "type": "poison", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Lava Caverns",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Frost Islands",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Bishaten",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Beast",
+    "description": "A monster with a distinctive tail. While it is omnivorous, it has a preference for fruit, and keeps various fruits with all kinds of effects in its belly pouch. An incredibly curious beast, it enjoys playing tricks on people, and has been seen to bat fruit at its prey using its tail.",
+    "useful_info": "Its varied tail attacks are incredibly powerful, and sometimes it spins around like a top, so avoiding damage can be tough. But, if you use that chance to attack, the beast will drop its fruit, and you can pick it up and throw it back, aiding your hunt. Watch its moves carefully to find your opening.",
+    "elements": [],
+    "ailments": ["Poison", "Stun"],
+    "resistances": ["Dragon", "Water", "Thunder"],
+    "threat_level": 4,
+    "rampage_role": "stalker",
+    "weaknesses": [
+      { "type": "fire", "rating": 1 },
+      { "type": "ice", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Blood Orange Bishaten",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Beast",
+    "description": "A subspecies named for their auburn fur. Inquisitive by nature, Blood Orange Bishaten can even appear near human habitats. Their belly pouch is stuffed with combustible pinecones, and this subspecies has a distinct and focused fire breath. The breath itself isn't as dangerous as the pinecones it ignites. Reports indicate that it's possible to topple these monsters while they balance on their tails.",
+    "useful_info": "Ignites pinecones in a variety of ways, then attacks using a variety of arcs. The cones will explode when touched, or after a certain amount of time. When enraged these Bishaten subspecies have a fiery breath attack. Positioning is key as any cones in this breath attack's path will be ignited.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight"],
+    "resistances": ["Dragon", "Fire"],
+    "threat_level": 6,
+    "weaknesses": [
+      { "type": "water", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      }
+    ]
   }
 ]
