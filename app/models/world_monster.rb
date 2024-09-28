@@ -16,6 +16,8 @@ class WorldMonster
   field :ailments, type: Array
   field :resistances, type: Array
   field :threatLevel, type: Integer, as: :threat_level
+  field :render, type: String
+  field :icon, type: String
 
   validates_presence_of :name
 

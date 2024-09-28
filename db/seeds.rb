@@ -16,7 +16,9 @@ monsters.each do |monster_data|
       elements: monster_data["elements"],
       ailments: monster_data["ailments"],
       resistances: monster_data["resistances"],
-      threat_level: monster_data["threat_level"]
+      threat_level: monster_data["threat_level"],
+      render: monster_data["render"],
+      icon: monster_data["icon"]
     )
 
     # Seed locations

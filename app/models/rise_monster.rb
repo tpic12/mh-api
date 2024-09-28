@@ -17,6 +17,8 @@ class RiseMonster
   field :resistances, type: Array
   field :threatLevel, type: Integer, as: :threat_level
   field :rampageRole, type: String, as: :rampage_role
+  field :render, type: String
+  field :icon, type: String
 
   validates_presence_of :name
 
