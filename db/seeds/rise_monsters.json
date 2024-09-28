@@ -870,7 +870,6 @@
     "ailments": ["Fireblight", "Paralysis", "Poison"],
     "resistances": ["Fire", "Thunder"],
     "threat_level": 7,
-    "rampage_role": "stalker",
     "weaknesses": [
       { "type": "ice", "rating": 2 },
       { "type": "blast", "rating": 2 },
@@ -885,6 +884,53 @@
       },
       {
         "name": "The Jungle",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Furious Rajang",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Beast",
+    "description": "Furious Rajang are Rajang variants that are covered in golden fur. Normally Rajang return to their black-furred state after being agitated for a time to conserve energy, but these beasts have lost the ability to curb their anger.",
+    "useful_info": "Furious Rajang do NOT have tails! If a Furious Rajang were to enter its rampage mode, aim your attacks at its head to knock it out of this state. Beware though, as aiming for the head makes you also prone to being hit by many of the Furious Rajang's attacks.",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "resistances": ["Fire", "Thunder", "Dragon"],
+    "threat_level": 9,
+    "weaknesses": [
+      { "type": "ice", "rating": 3 },
+      { "type": "water", "rating": 1 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Frost Islands",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Lava Caverns",
         "color": "0xBF5726"
       }
     ]
