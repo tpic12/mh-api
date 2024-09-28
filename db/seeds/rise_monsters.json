@@ -677,5 +677,216 @@
         "color": "0xBF5726"
       }
     ]
+  },
+  {
+    "name": "Chameleos",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "Precious few sightings of this elder dragon have been recorded, leading to claims it can vanish into its environment like a chameleon — hence its name. Witnesses report that, when enraged, it can spew a fog-like breath, which seems to come out of nowhere, and enhance its strength by licking the pollen from Petalaces.",
+    "useful_info": "Chameleos has a meddlesome tendency to vanish suddenly, but by watching their attacks just before they do, you can somewhat predict where they'll reappear. Furthermore, there are eye-witness reports of a Chameleos not being able to vanish after its horn on the tip of its nose had been broken.",
+    "elements": [],
+    "ailments": ["Venom"],
+    "resistances": ["Ice", "Water"],
+    "threat_level": 8,
+    "weaknesses": [
+      { "type": "fire", "rating": 3 },
+      { "type": "dragon", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Chaotic Gore Magala",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "Gore Magala that have fallen into chaos. having been denied their evolution into Shagaru Magala. They maintain their original power, while possessing the potential of Shagaru Magala, making them incredibly unstable. Sometimes this leads them to fall into a state of anguish and violence. When attacking their prey, they repeatedly fold and unfurl their wings, as if to show their internal struggle with their own form.",
+    "useful_info": "Containing the latent powers of Shagaru Magala, their attacks become especially fearsome when they let themselves go, causing explosions across a wide area with their breath attacks. Like regular Gore Magala, they can be knocked out of their enraged state if you continually attack their head.",
+    "elements": [],
+    "ailments": ["Frenzy Virus"],
+    "resistances": ["Ice", "Water"],
+    "threat_level": 10,
+    "weaknesses": [
+      { "type": "fire", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "poison", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Crimson Glow Valstrax",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "A mutant Valstrax fearsomely dubbed the \"Crimson Glow.\" This elder dragon typically secludes itself in the upper atmosphere, but it has been driven mad by its own rampant energy, causing it to lash out at anything in its sight. Once it sights its prey, it swoops down, trampling them beneath its shifting wingblades. Several have been sighted all over, so be prepared to encounter one at any time.",
+    "useful_info": "After channeling energy into its wings, it will unleash a powerful attack. It sucks in this energy from its chest, and that's the moment to wait for. Prevent it from powering up and cause the energy to combust, dealing serious damage to the creature.",
+    "elements": ["Dragon"],
+    "ailments": ["Dragonblight"],
+    "resistances": ["Dragon"],
+    "threat_level": 10,
+    "weaknesses": [
+      { "type": "fire", "rating": 3 },
+      { "type": "water", "rating": 3 },
+      { "type": "thunder", "rating": 3 },
+      { "type": "ice", "rating": 3 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Frost Islands",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Lava Caverns",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Daimyo Hermitaur",
+    "render": "",
+    "icon": "",
+    "species": "Carapaceon",
+    "description": "Daimyo Hermitaurs use their massive claws to guard themselves against enemy attacks. These creatures wear wyvern skulls on their backs, unlike the shells carried in their infancy. These shells serve not only as protection, but also as a method for attacking prey. They are highly valued for their materials—their brains in particular.",
+    "useful_info": "Daimyo Hermitaurs' weak point is their head. Attacking it will inflict massive damage, so focus your attention there. However, they will use their gargantuan claws to defend themselves and to protect this soft spot. Using a Sonic Bomb when they adopt a defensive position is an excellent tactic to \"crack the shell to get the nut inside.\"",
+    "elements": ["Water"],
+    "ailments": ["Waterblight"],
+    "resistances": ["Dragon", "Water"],
+    "threat_level": 5,
+    "weaknesses": [
+      { "type": "thunder", "rating": 2 },
+      { "type": "blast", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "poison", "rating": 3 }
+    ],
+    "locations": [
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Diablos",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "Known as the \"Tyrant of the Desert.\" The Diablos is extremely territorial and will use its massive horns to charge at invaders. Diablos have the ability to borrow underground and use this ability to strike from below, however, their sensitive ears make them susceptible to Sonic Bombs. Despite their predatory appearance, they are herbivorous and mostly feed on cactus.",
+    "useful_info": "Diablos can be forcibly brought to the surface by using loud sounds. And its charging attack, while devastatingly powerful, can be baited into colliding with anthills, momentarily getting the Diablos stuck.",
+    "elements": [],
+    "ailments": [],
+    "resistances": ["Fire"],
+    "threat_level": 7,
+    "rampage_role": "stalker",
+    "weaknesses": [
+      { "type": "ice", "rating": 3 },
+      { "type": "water", "rating": 2 },
+      { "type": "dragon", "rating": 2 },
+      { "type": "blast", "rating": 2 },
+      { "type": "paralysis", "rating": 3 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "poison", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Espinas",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "Flying Wyverns known for the red spikes on their tough green frame, forming both a means of attack and defense, thus generally keeping foes at bay.",
+    "useful_info": "Their breath attacks are particularly annoying, inflicting poison, paralysis, and fireblight. Make sure you have resistance skills and ailment recovery items at the ready before the hunt.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight", "Paralysis", "Poison"],
+    "resistances": ["Fire", "Thunder"],
+    "threat_level": 7,
+    "rampage_role": "stalker",
+    "weaknesses": [
+      { "type": "ice", "rating": 2 },
+      { "type": "blast", "rating": 2 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      }
+    ]
   }
 ]
