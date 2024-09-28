@@ -19,7 +19,7 @@ class WorldMonster
   field :render, type: String
   field :icon, type: String
 
-  validates_presence_of :name
+  validates_uniqueness_of :name
 
   index({ name: 1 })
   index({ species: 1 })
