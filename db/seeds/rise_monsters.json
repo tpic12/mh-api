@@ -1,0 +1,2199 @@
+[
+  {
+    "name": "Aknosom",
+    "render": "",
+    "icon": "",
+    "species": "Bird Wyvern",
+    "description": "Tending to stand on one leg, this monster somewhat resembles an umbrella. The Aknosom is highly territorial; it will spread out its wings and show off its characteristics comb to scare off threats. It also bears flammable venom that burns fiercely and lingers on the ground when lit. Draw the beast to water for an easier fight.",
+    "useful_info": "It can manipulate the umbrella-shaped crest on its head to curl up, fan out, or shut tight. Observe its shape closely, and you might be able to predict which attack it will use next.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight"],
+    "resistances": ["Fire", "Dragon"],
+    "threat_level": 2,
+    "rampage_role": "targeter",
+    "weaknesses": [
+      {
+        "type": "thunder",
+        "rating": 3
+      },
+      {
+        "type": "water",
+        "rating": 2
+      },
+      {
+        "type": "ice",
+        "rating": 1
+      },
+      {
+        "type": "blast",
+        "rating": 2
+      },
+      {
+        "type": "poison",
+        "rating": 1
+      },
+      {
+        "type": "sleep",
+        "rating": 1
+      },
+      {
+        "type": "paralysis",
+        "rating": 1
+      },
+      {
+        "type": "stun",
+        "rating": 1
+      }
+    ],
+    "locations": [
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Frost Islands",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Almudron",
+    "render": "",
+    "icon": "",
+    "species": "Leviathan",
+    "description": "As its name implies, Almudron spends a great deal of time lurking in mud—at least until it emerges to smother approaching prey. From its tail oozes a strange golden fluid, which Almudron uses to dissolve the ground beneath its prey, arresting them in a mire so that it can drag them under.",
+    "useful_info": "The mud-covered tail is what makes this species strong; attacking this outer layer will chip away at it, so removing this muddy shroud should be your priority. The gold-glimmering mud is harmful to the touch, so mind the color of your surroundings while hunting these beasts.",
+    "elements": ["Water"],
+    "ailments": ["Waterblight"],
+    "resistances": ["Water"],
+    "threat_level": 7,
+    "rampage_role": "stalker",
+    "weaknesses": [
+      {
+        "type": "fire",
+        "rating": 3
+      },
+      {
+        "type": "ice",
+        "rating": 2
+      },
+      {
+        "type": "poison",
+        "rating": 1
+      },
+      {
+        "type": "sleep",
+        "rating": 1
+      },
+      {
+        "type": "paralysis",
+        "rating": 1
+      },
+      {
+        "type": "stun",
+        "rating": 1
+      }
+    ],
+    "locations": [
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Anjanath",
+    "render": "",
+    "icon": "",
+    "species": "Brute Wyvern",
+    "description": "The belligerent monster will attack anything without hesitation. The membrane along its tail fans out when it is provoked—a behavior theorized to be either an act of intimidation or thermoregulation, as it has been known to do so when it breathes fire.",
+    "useful_info": "Anjanath spits fiery blasts from its mouth utilizing a unique organ in its throat when it is angered. When it does so, focus attacks on its throat to gain an edge.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight"],
+    "resistances": ["Fire", "Dragon"],
+    "threat_level": 6,
+    "rampage_role": "gate crasher",
+    "weaknesses": [
+      { "type": "water", "rating": 3 },
+      { "type": "ice", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Lava Caverns",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Apex Arzuros",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Beast",
+    "description": "An Arzuros so mighty, it was crowned an Apex. It is eternally possessed by wrath and terror, possibly due to the myriad wounds that cover its body. Its forelegs are massive, deft removers of any who'd stand in their way. The call of an Apex unleashes its tortured anger on nearby beasts, driving them into a frenzy.",
+    "useful_info": "An angry Apex Arzuros will trigger a devastating move, closing in while thrashing the ground, hitting obstacles with a colossal strike. Push on against an enraged Apex to quickly rid it of its range and steady its temper.",
+    "elements": [],
+    "ailments": [],
+    "resistances": ["Water", "Dragon"],
+    "threat_level": 8,
+    "rampage_role": "apex",
+    "weaknesses": [
+      { "type": "fire", "rating": 1 },
+      { "type": "ice", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Red Stronghold",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Apex Diablos",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "A Diablos so mighty, it was crowned an Apex. It is eternally possessed by wrath and terror, possibly due to the myriad wounds that cover its body. Its supremely developed horns add to the lethality of its charge. The call of an Apex unleashes its tortured anger on nearby beasts, driving them into a frenzy.",
+    "useful_info": "An angry Apex Diablos will trigger a devastating move, launching into an unstoppable charge, bringing down everything that stands in its path. Push on against an enraged Apex to quickly rid it of its rage and steady its temper.",
+    "elements": [],
+    "ailments": [],
+    "resistances": ["Fire"],
+    "threat_level": 10,
+    "rampage_role": "apex",
+    "weaknesses": [
+      { "type": "water", "rating": 1 },
+      { "type": "ice", "rating": 2 },
+      { "type": "dragon", "rating": 1 },
+      { "type": "poison", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Red Stronghold",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Apex Mizutsune",
+    "render": "",
+    "icon": "",
+    "species": "Leviathan",
+    "description": "A Mizutsune so mighty, it was crowned an Apex. It is eternally possessed by wrath and terror, possibly due to the myriad wounds that cover its body. Its bubbles and huge tail have no trouble sending foes packing. The call of an Apex unleashes its tortured anger on nearby beasts, driving them into a frenzy.",
+    "useful_info": "An angry Apex Mizutsune will trigger a devastating move, wreaking havoc to its surrounding by shooting out explosive bubbles. These can be dealt with by using kunai, ranged weapon shots, or ballistae. Push on against an enraged Apex to quickly rid it of its rage and steady its temper.",
+    "elements": ["Water"],
+    "ailments": ["Waterblight", "Bubble"],
+    "resistances": ["Water", "Fire"],
+    "threat_level": 9,
+    "rampage_role": "apex",
+    "weaknesses": [
+      { "type": "thunder", "rating": 3 },
+      { "type": "dragon", "rating": 1 },
+      { "type": "poison", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Red Stronghold",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Frost Islands",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Infernal Springs",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Apex Rathalos",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "A Rathalos so mighty, it was crowned an Apex. It is eternally possessed by wrath and tremor, possibly due to the myriad wounds that covers its body. Its every breath releases flaming jets that single the very air. The call of an Apex unleashes its tortured anger on nearby beasts, driving them into a frenzy.",
+    "useful_info": "An angry Apex Rathalos will trigger a devastating move, blasting a terrifying breath, destroying everything around it. Push on against an enraged Apex to quickly rid it of its rage and steady its temper.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight", "Poison"],
+    "resistances": ["Water", "Fire", "Ice"],
+    "threat_level": 9,
+    "rampage_role": "apex",
+    "weaknesses": [
+      { "type": "thunder", "rating": 1 },
+      { "type": "dragon", "rating": 3 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Red Stronghold",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Lava Caverns",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Infernal Springs",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Apex Rathian",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "A Rathian so mighty, it was crowned an Apex. It is eternally possessed by wrath and terror, possibly due to the myriad wounds that cover its body. Its tail oozes a venom far deadlier than any of a normal monster. The call of an Apex unleashes its tortured anger on nearby beasts, driving them into a frenzy.",
+    "useful_info": "An angry Apex Rathian will trigger a devastating move, spraying poisonous thorns in all directions, creating toxic fields wherever they land. Push on against an enraged Apex to quickly rid it of its rage and steady its temper.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight", "Poison"],
+    "resistances": ["Fire"],
+    "threat_level": 8,
+    "rampage_role": "apex",
+    "weaknesses": [
+      { "type": "thunder", "rating": 2 },
+      { "type": "dragon", "rating": 3 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Red Stronghold",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Lava Caverns",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Apex Zinogre",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Wyvern",
+    "description": "A Zinogre so mighty, it was crowned an Apex. Its body is covered in scars and wounds as if it had been caught in a storm, and it's seemingly always dominated by wrath and terror. Its forelegs -- and their every strike -- brim with ferocious sparks. The call of an Apex unleashes its tortured anger on nearby beasts, driving them into a frenzy.",
+    "useful_info": "An angry Apex Zinogre will trigger a devastating move, causing a lightning strike upon the Thunderbugs it controls, after which it will pounce viciously on its prey. Push on against an enraged Apex to quickly rid it of its rage and steady its temper.",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "resistances": ["Fire", "Thunder", "Dragon"],
+    "threat_level": 10,
+    "rampage_role": "apex",
+    "weaknesses": [
+      { "type": "ice", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "poison", "rating": 1 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Red Stronghold",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Infernal Springs",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Arzuros",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Beast",
+    "description": "Beasts known to dwell in humid forest and mountain regions. Though known more for fishing and standing upright to collect honey, their thick claws and heavy forearm plating allow them to deliver powerful blows to any aggressor. ",
+    "useful_info": "Arzuros love Honey so much that they may steal any you might be carrying and start to eat it on the spot, leaving them vulnerable. Carry around a stash of honey to exploit their sweet tooth.",
+    "elements": [],
+    "ailments": [],
+    "resistances": ["Dragon", "Water"],
+    "threat_level": 1,
+    "rampage_role": "stalker",
+    "weaknesses": [
+      { "type": "ice", "rating": 2 },
+      { "type": "fire", "rating": 3 },
+      { "type": "thunder", "rating": 1 },
+      { "type": "stun", "rating": 2 },
+      { "type": "poison", "rating": 3 },
+      { "type": "blast", "rating": 2 },
+      { "type": "sleep", "rating": 3 },
+      { "type": "paralysis", "rating": 3 }
+    ],
+    "locations": [
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Astalos",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "Large Flying Wyverns with crest-shaped organs that let them control vast amounts of electricity. Astalos vibrate these organs on their head, forked tail, and brilliant wings to charge the respective body part with electricity, yielding tremendous strength and an amplified attack range. Violent to a fault, witnesses have observed them using all their might to drive intruders from their territory.",
+    "useful_info": "Attacks with their head, wings, or tail will be charged with electricity. The movement, attack range, and strength of each part changes when electrified; when all parts are charged, these creatures become particularly dangerous, so targeting electrified parts to dispel their charge is essential.",
+    "elements": ["Thunder"],
+    "ailments": ["Paralysis"],
+    "resistances": ["Dragon", "Thunder"],
+    "threat_level": 7,
+    "weaknesses": [
+      { "type": "ice", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "paralysis", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Aurora Somnacanth",
+    "render": "",
+    "icon": "",
+    "species": "Leviathan",
+    "description": "Light illuminates the dust scattered around this subspecies, making their fantastical appearance shimmer softly. Aurora Somnacanth sprays icy blasts in place of sleeping powder, attacking all who dare enter their territory. They use the permanent cold emanating from their bodies to freeze the vicinity, and then the frozen surface to move around swiftly.",
+    "useful_info": "Aurora Somnacanth is weakest at its head but note that it is also where most of its attacks will come from. It may be difficult to reach its head when it is standing on its tail. In such cases, focus your attacks on its tail instead.",
+    "elements": ["Ice"],
+    "ailments": ["Iceblight"],
+    "resistances": ["Water", "Ice", "Dragon", "Thunder"],
+    "threat_level": 6,
+    "weaknesses": [
+      { "type": "fire", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "paralysis", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Frost Islands",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Barioth",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "Wyverns that rule the eternally frozen Tundra. Barioth use their forelegs, tail and their spiked scales to traverse the slippery ice with ease; this ability makes them very difficult to keep up with.",
+    "useful_info": "Destroy the spikes on its winged forelegs and it won't be as zippy on the ice anymore! If you really want to slow a Barioth down, aim at those spikes.",
+    "elements": ["Ice"],
+    "ailments": ["Iceblight"],
+    "resistances": ["Water", "Ice", "Dragon"],
+    "threat_level": 5,
+    "weaknesses": [
+      { "type": "fire", "rating": 1 },
+      { "type": "thunder", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Frost Islands",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Barroth",
+    "render": "",
+    "icon": "",
+    "species": "Brute Wyvern",
+    "description": "Barroth usually remains beneath the mud, perhaps to shield themselves from heat; they are even known to attack by flinging mud. They will charge in a frenzy at anything that disturbs their bogs.",
+    "useful_info": "If you get hit by the mud a Barroth flings around, you'll get muddy, which means that any pro hunter should priorize attacking the muddy parts of the monster to clean it off! Once you've got rid of all that mud, fighting it will be some good, clean fun!",
+    "elements": ["Water"],
+    "ailments": ["Waterblight"],
+    "resistances": ["Fire", "Ice"],
+    "threat_level": 3,
+    "weaknesses": [
+      { "type": "fire", "rating": 3 },
+      { "type": "ice", "rating": 2 },
+      { "type": "blast", "rating": 3 },
+      { "type": "poison", "rating": 3 },
+      { "type": "paralysis", "rating": 3 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Basarios",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "These juvenile Gravios are famous for their rock-hard carapaces. They often burrow underground, mimicking rocks and savaging oblivious miners. Because their carapaces are tougher than that of a full-grown Gravios, they'll attack a threat by charging at it. They are also known to emit a poisonous gas.",
+    "useful_info": "Its thick, hardened shell is impervious to most attacks, making it tricky to approach, but if you can break its abdominal plating, you should be able to rip off its shell and deal some heavy hits. Attacks that produce heat will soften up the hide and make the job easier.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight", "Poison", "Sleep"],
+    "resistances": ["Dragon"],
+    "threat_level": 3,
+    "rampage_role": "gate crasher",
+    "weaknesses": [
+      { "type": "dragon", "rating": 2 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "sleep", "rating": 3 }
+    ],
+    "locations": [
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Lava Caverns",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Bazelgeuse",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "A nefarious flying wyvern that travels the world in search of prey. It scatters its own explosives scales over a wide area to prey on whatever gets caught in the blast. In some places, this has earned it the nickname \"Bomber Wyvern\".",
+    "useful_info": "The formidable scales that the Bazelgeuse scatters explode after receiving an impact but the time they take to regenerate can be used as a chance to attack. When its scales turn red hot, they will explode immediately and require caution, however, parts of the body will be soft too - the perfect time to attack.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight"],
+    "resistances": ["Fire", "Water"],
+    "threat_level": 8,
+    "weaknesses": [
+      { "type": "thundar", "rating": 2 },
+      { "type": "ice", "rating": 1 },
+      { "type": "dragon", "rating": 1 },
+      { "type": "poison", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Lava Caverns",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Frost Islands",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Bishaten",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Beast",
+    "description": "A monster with a distinctive tail. While it is omnivorous, it has a preference for fruit, and keeps various fruits with all kinds of effects in its belly pouch. An incredibly curious beast, it enjoys playing tricks on people, and has been seen to bat fruit at its prey using its tail.",
+    "useful_info": "Its varied tail attacks are incredibly powerful, and sometimes it spins around like a top, so avoiding damage can be tough. But, if you use that chance to attack, the beast will drop its fruit, and you can pick it up and throw it back, aiding your hunt. Watch its moves carefully to find your opening.",
+    "elements": [],
+    "ailments": ["Poison", "Stun"],
+    "resistances": ["Dragon", "Water", "Thunder"],
+    "threat_level": 4,
+    "rampage_role": "stalker",
+    "weaknesses": [
+      { "type": "fire", "rating": 1 },
+      { "type": "ice", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Blood Orange Bishaten",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Beast",
+    "description": "A subspecies named for their auburn fur. Inquisitive by nature, Blood Orange Bishaten can even appear near human habitats. Their belly pouch is stuffed with combustible pinecones, and this subspecies has a distinct and focused fire breath. The breath itself isn't as dangerous as the pinecones it ignites. Reports indicate that it's possible to topple these monsters while they balance on their tails.",
+    "useful_info": "Ignites pinecones in a variety of ways, then attacks using a variety of arcs. The cones will explode when touched, or after a certain amount of time. When enraged these Bishaten subspecies have a fiery breath attack. Positioning is key as any cones in this breath attack's path will be ignited.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight"],
+    "resistances": ["Dragon", "Fire"],
+    "threat_level": 6,
+    "weaknesses": [
+      { "type": "water", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Chameleos",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "Precious few sightings of this elder dragon have been recorded, leading to claims it can vanish into its environment like a chameleon — hence its name. Witnesses report that, when enraged, it can spew a fog-like breath, which seems to come out of nowhere, and enhance its strength by licking the pollen from Petalaces.",
+    "useful_info": "Chameleos has a meddlesome tendency to vanish suddenly, but by watching their attacks just before they do, you can somewhat predict where they'll reappear. Furthermore, there are eye-witness reports of a Chameleos not being able to vanish after its horn on the tip of its nose had been broken.",
+    "elements": [],
+    "ailments": ["Venom"],
+    "resistances": ["Ice", "Water"],
+    "threat_level": 8,
+    "weaknesses": [
+      { "type": "fire", "rating": 3 },
+      { "type": "dragon", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Chaotic Gore Magala",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "Gore Magala that have fallen into chaos. having been denied their evolution into Shagaru Magala. They maintain their original power, while possessing the potential of Shagaru Magala, making them incredibly unstable. Sometimes this leads them to fall into a state of anguish and violence. When attacking their prey, they repeatedly fold and unfurl their wings, as if to show their internal struggle with their own form.",
+    "useful_info": "Containing the latent powers of Shagaru Magala, their attacks become especially fearsome when they let themselves go, causing explosions across a wide area with their breath attacks. Like regular Gore Magala, they can be knocked out of their enraged state if you continually attack their head.",
+    "elements": [],
+    "ailments": ["Frenzy Virus"],
+    "resistances": ["Ice", "Water"],
+    "threat_level": 10,
+    "weaknesses": [
+      { "type": "fire", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "poison", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Crimson Glow Valstrax",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "A mutant Valstrax fearsomely dubbed the \"Crimson Glow.\" This elder dragon typically secludes itself in the upper atmosphere, but it has been driven mad by its own rampant energy, causing it to lash out at anything in its sight. Once it sights its prey, it swoops down, trampling them beneath its shifting wingblades. Several have been sighted all over, so be prepared to encounter one at any time.",
+    "useful_info": "After channeling energy into its wings, it will unleash a powerful attack. It sucks in this energy from its chest, and that's the moment to wait for. Prevent it from powering up and cause the energy to combust, dealing serious damage to the creature.",
+    "elements": ["Dragon"],
+    "ailments": ["Dragonblight"],
+    "resistances": ["Dragon"],
+    "threat_level": 10,
+    "weaknesses": [
+      { "type": "fire", "rating": 3 },
+      { "type": "water", "rating": 3 },
+      { "type": "thunder", "rating": 3 },
+      { "type": "ice", "rating": 3 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Frost Islands",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Lava Caverns",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Daimyo Hermitaur",
+    "render": "",
+    "icon": "",
+    "species": "Carapaceon",
+    "description": "Daimyo Hermitaurs use their massive claws to guard themselves against enemy attacks. These creatures wear wyvern skulls on their backs, unlike the shells carried in their infancy. These shells serve not only as protection, but also as a method for attacking prey. They are highly valued for their materials—their brains in particular.",
+    "useful_info": "Daimyo Hermitaurs' weak point is their head. Attacking it will inflict massive damage, so focus your attention there. However, they will use their gargantuan claws to defend themselves and to protect this soft spot. Using a Sonic Bomb when they adopt a defensive position is an excellent tactic to \"crack the shell to get the nut inside.\"",
+    "elements": ["Water"],
+    "ailments": ["Waterblight"],
+    "resistances": ["Dragon", "Water"],
+    "threat_level": 5,
+    "weaknesses": [
+      { "type": "thunder", "rating": 2 },
+      { "type": "blast", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "poison", "rating": 3 }
+    ],
+    "locations": [
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Diablos",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "Known as the \"Tyrant of the Desert.\" The Diablos is extremely territorial and will use its massive horns to charge at invaders. Diablos have the ability to borrow underground and use this ability to strike from below, however, their sensitive ears make them susceptible to Sonic Bombs. Despite their predatory appearance, they are herbivorous and mostly feed on cactus.",
+    "useful_info": "Diablos can be forcibly brought to the surface by using loud sounds. And its charging attack, while devastatingly powerful, can be baited into colliding with anthills, momentarily getting the Diablos stuck.",
+    "elements": [],
+    "ailments": [],
+    "resistances": ["Fire"],
+    "threat_level": 7,
+    "rampage_role": "stalker",
+    "weaknesses": [
+      { "type": "ice", "rating": 3 },
+      { "type": "water", "rating": 2 },
+      { "type": "dragon", "rating": 2 },
+      { "type": "blast", "rating": 2 },
+      { "type": "paralysis", "rating": 3 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "poison", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Espinas",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "Flying Wyverns known for the red spikes on their tough green frame, forming both a means of attack and defense, thus generally keeping foes at bay.",
+    "useful_info": "Their breath attacks are particularly annoying, inflicting poison, paralysis, and fireblight. Make sure you have resistance skills and ailment recovery items at the ready before the hunt.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight", "Paralysis", "Poison"],
+    "resistances": ["Fire", "Thunder"],
+    "threat_level": 7,
+    "weaknesses": [
+      { "type": "ice", "rating": 2 },
+      { "type": "blast", "rating": 2 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Furious Rajang",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Beast",
+    "description": "Furious Rajang are Rajang variants that are covered in golden fur. Normally Rajang return to their black-furred state after being agitated for a time to conserve energy, but these beasts have lost the ability to curb their anger.",
+    "useful_info": "Furious Rajang do NOT have tails! If a Furious Rajang were to enter its rampage mode, aim your attacks at its head to knock it out of this state. Beware though, as aiming for the head makes you also prone to being hit by many of the Furious Rajang's attacks.",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "resistances": ["Fire", "Thunder", "Dragon"],
+    "threat_level": 9,
+    "weaknesses": [
+      { "type": "ice", "rating": 3 },
+      { "type": "water", "rating": 1 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Frost Islands",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Lava Caverns",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Gaismagorm",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "A gargantuan monster living in the darkest depths since ancient times. Gaismagorm's rock-like forearms boast tenacious strength which allows it to burrow underground. It has a symbiotic relationship with the Qurio, and feeds on their life force for energy.",
+    "useful_info": "Gaismagorm attacks with the explosive, crystallized Qurio on its carapace. Break these crystals by attacking, but beware: Gaismagorm can consume the shards and use them to deliver even more explosive attacks. When Gaismagorm climbs the pit's wall, it's readying a strong attack. Use the ballistae provided to stop it.",
+    "elements": [],
+    "ailments": ["Blastblight", "Bloodblight"],
+    "resistances": ["Water", "Ice"],
+    "threat_level": 10,
+    "weaknesses": [
+      { "type": "dragon", "rating": 3 },
+      { "type": "thundar", "rating": 2 },
+      { "type": "fire", "rating": 1 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [
+      {
+        "name": "Special",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Garangolm",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Beast",
+    "description": "Garangolm are generally placid, living in regions with fertile soil. Their sap-like fluids can promote plant growth, forging a symbiotic relationship with flora that grows in their bodies. They can also use that sap to harden plants or the surrounding soil, outfitting their bodies and enhancing their attacks.",
+    "useful_info": "Garangolm will reinforce their arms by covering them in elements. When their arms are in this state, continuously attacking the elemental covering will eventually break it off, toppling the beast.",
+    "elements": ["Fire"],
+    "ailments": ["Blastblight"],
+    "resistances": ["Water", "Dragon"],
+    "threat_level": 6,
+    "weaknesses": [
+      { "type": "thundar", "rating": 2 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Gore Magala",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "They lack visual receptors, and so to make up for this they heighten their senses by scattering scales from their wings to ascertain the locations of lifeforms. At the peak of their senses, feelers extend from their head, their wings unfurl, and they become frenzied. By this point, the Gore Magala have used their scales to precisely detect where its opponents may lie.",
+    "useful_info": "Coming into contact with patches of scales may infect you with the Frenzy virus. You'll lose your natural ability to heal and become more susceptible to all forms of attack. Keep attacking before infection sets in to overcome it. Its Frenzied State can be dispelled by attacking the head.",
+    "elements": [],
+    "ailments": ["Frenzy Virus"],
+    "resistances": ["Water", "Ice"],
+    "threat_level": 7,
+    "weaknesses": [
+      { "type": "fire", "rating": 2 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Gold Rathian",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "Known as the Gold Fire Wyvern, or alternatively the Golden Moon, as inspired by their divine appearance. These wyverns are infamous for their strong scales and attacks with their reinforced tails, giving these beasts exceptional combat ability. In battle, their attacks grow only more intense when in their Incandescent state.",
+    "useful_info": "Gold Rathian will use their tail to greater effect compared to standard Rathian, so watch out as their tail strikes will come at you from different ranges and trajectories. When in their Incandescent state, their tail attacks grow fiercer, but their head also becomes weaker.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight", "Poison"],
+    "resistances": ["Fire", "Dragon"],
+    "threat_level": 9,
+    "weaknesses": [
+      { "type": "thunder", "rating": 3 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Lava Caverns",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Sandy Plains",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Goss Harag",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Beast",
+    "description": "A monster native to ice-cold climates. Covered in fur so thick it keeps out the harsh frost, it roams the snowy plains in search of prey. It can inhale the cold air to freeze its own bodily fluids and then spit them out to create icy blades on its arms. When riled up, the Goss Harag turns red and becomes exceedingly dangerous.",
+    "useful_info": "In hitting the accumulated frost on its forelegs, a hunter risks being afflicted with iceblight, but is rewarded by the creature being toppled when the frost is shattered. Areas that appear red when the creature is angry are the most susceptible, so focus your efforts there!",
+    "elements": ["Ice"],
+    "ailments": ["Iceblight"],
+    "resistances": ["Water", "Ice", "Dragon"],
+    "threat_level": 7,
+    "weaknesses": [
+      { "type": "fire", "rating": 3 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      {
+        "name": "Frost Islands",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Citadel",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Great Baggi",
+    "render": "",
+    "icon": "",
+    "species": "Bird Wyvern",
+    "description": "A carnivorous bird wyvern. Noted for their projecting cranial crests and bluish-white skin that's adapted to snowy climates. Great Baggi craftily command other Baggi to surround their prey and stun them with a tranquilizing fluid.",
+    "useful_info": "It commands many lesser Baggi to form a wave of all-out offense; a tactful hunter will pick off the herd one by one and avoid being surrounded. The Great Baggi spits out a sedative venom that will knock you out if you're struck by it, but having Energy Drinks on hand helps offset that threat.",
+    "elements": [],
+    "ailments": ["Sleep"],
+    "resistances": ["Ice", "Dragon"],
+    "threat_level": 1,
+    "weaknesses": [
+      { "type": "fire", "rating": 3 },
+      { "type": "water", "rating": 2 },
+      { "type": "thunder", "rating": 2 },
+      { "type": "blast", "rating": 3 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 3 }
+    ],
+    "locations": [
+      {
+        "name": "Frost Islands",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Great Izuchi",
+    "render": "",
+    "icon": "",
+    "species": "Bird Wyvern",
+    "description": "The Great Izuchi is the alpha of its pack, identified by its larger build, upended white fur, and scythe-like tail. A Great Izuchi forms a herd of many smaller Izuchi and selects two from the group to accompany it on territory patrols.",
+    "useful_info": "Their razor-sharp tail attacks in combination with their synchronicity make them a force to be reckoned with. Take out their leader to send the herd into disarray and pick them off easily.",
+    "elements": [],
+    "ailments": [],
+    "resistances": ["Dragon"],
+    "threat_level": 1,
+    "rampage_role": "stalker",
+    "weaknesses": [
+      { "type": "water", "rating": 2 },
+      { "type": "thunder", "rating": 3 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 3 },
+      { "type": "stun", "rating": 2 },
+      { "type": "paralysis", "rating": 3 },
+      { "type": "sleep", "rating": 3 }
+    ],
+    "locations": [
+      {
+        "name": "Frost Islands",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Great Wroggi",
+    "render": "",
+    "icon": "",
+    "species": "Bird Wyvern",
+    "description": "Wroggi are bird wyverns that travel in packs that are led by the largest and most toxic member. Be careful when one raises its head and its poison sac expands -- that signals that it's about to spit a cloud of poisonous mist.",
+    "useful_info": "Remember to bring some Antidotes to deal with its poison. Taking out the sac around a Great Wroggi's neck will also prevent it from producing venom, so aim for the head.",
+    "elements": [],
+    "ailments": ["Poison"],
+    "resistances": ["Fire", "Dragon", "Thunder"],
+    "threat_level": 2,
+    "rampage_role": "stalker",
+    "weaknesses": [
+      { "type": "water", "rating": 2 },
+      { "type": "ice", "rating": 3 },
+      { "type": "blast", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 3 },
+      { "type": "sleep", "rating": 3 }
+    ],
+    "locations": [
+      {
+        "name": "Flooded Forest",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Shrine Ruins",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "Lava Caverns",
+        "color": "0xBF5726"
+      },
+      {
+        "name": "The Jungle",
+        "color": "0xBF5726"
+      }
+    ]
+  },
+  {
+    "name": "Jyuratodus",
+    "render": "",
+    "icon": "",
+    "species": "Piscine Wyvern",
+    "description": "A piscine wyvern that inhabits swamps, utilizing the mud there to hunt and survive. It wallows in the mire to maximize cutaneous respiration and preserve the toughness of its scales. The sludge it spits is highly viscous, so watch where you step, lest you get stuck in it.",
+    "useful_info": "A Jyuratodus's mud-caked carapace is tough, so use water-elemental weapons to dissolve the mud and get to its squishy core. Stepping in its mud slows you down, so pay attention to your footing.",
+    "elements": ["Water"],
+    "ailments": ["Waterblight"],
+    "resistances": ["Water", "Dragon", "Ice"],
+    "threat_level": 4,
+    "weaknesses": [
+      { "type": "thunder", "rating": 3 },
+      { "type": "poison", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "stun", "rating": 2 }
+    ],
+    "locations": [{ "name": "Flooded Forest", "color": "0xBF5726" }]
+  },
+  {
+    "name": "Khezu",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "Khezu are loathsome wyverns that dwell in caves and other dark places. All but blind, Khezu hunt by smell. Their tail has evolved to cling to walls and ceilings. After using an electric shock to paralyze their prey, they extend their long neck and pounce.",
+    "useful_info": "The Khezu will cling to walls or the ceiling to unleash its electric attacks from above. Use Wiredash to get to it and knock it down, or exhaust it to weaken its electricity.",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "resistances": ["Thunder", "Water", "Dragon", "Ice"],
+    "threat_level": 2,
+    "rampage_role": "gate crasher",
+    "weaknesses": [
+      { "type": "fire", "rating": 3 },
+      { "type": "poison", "rating": 3 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [
+      { "name": "Frost Islands", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Kulu-Ya-Ku",
+    "render": "",
+    "icon": "",
+    "species": "Bird Wyvern",
+    "description": "A bird wyvern that has developed limbs capable of carrying objects. It has been spotted stealing eggs from nests. If attacked while carrying an egg, it will drop the egg in fright and flee. When engaged, a Kulu-Ya-Ku will dig up a small boulder to shield itself against threats or use in its attacks.",
+    "useful_info": "A Kulu-Ya-Ku uses small boulders to shield itself or smash against its enemies. Force it to drop whatever it's holding by staggering or blinding it, or if it's holding a cracked boulder, attack it to break it.",
+    "elements": [],
+    "ailments": [],
+    "resistances": [],
+    "threat_level": 2,
+    "weaknesses": [
+      { "type": "water", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "stun", "rating": 2 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [
+      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xBF5726" },
+      { "name": "Shrine Ruins", "color": "0xBF5726" },
+      { "name": "Sandy Plains", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Kushala Daora",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "It's difficult to even get close to one of these metallic elder dragons, but some claim better odds if the creature is weakened with poison, or has its horn broken, limiting the amount of wind pressure it can muster.",
+    "useful_info": "Beckons dark dragon wind pressure as the whirlwinds surrounding its body seethe more wildly, and will deflect any non-piercing bow or bowgun shots not aimed at its head.",
+    "elements": [],
+    "ailments": ["Iceblight", "Dragonblight"],
+    "resistances": ["Ice", "Water"],
+    "threat_level": 8,
+    "weaknesses": [
+      { "type": "thunder", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "blast", "rating": 3 }
+    ],
+    "locations": [
+      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "The Citadel", "color": "0xBF5726" },
+      { "name": "The Jungle", "color": "0xBF5726" },
+      { "name": "Sandy Plains", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Lagombi",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Beast",
+    "description": "Fanged, long-eared beasts whose warm pelts and thick layers of fat help them survive in cold climates. Though mainly herbivores, Lagombi occasionally make use of their exceptional hearing and ability to glide on ice to sneak up on prey.",
+    "useful_info": "A Lagombi has very sensitive hearing, and Sonic Bomb will cause it to flinch in pain. Time a well-aimed throw for when it's sliding around, and you may topple it. When enraged, however, Sonic Bombs have no effect on it.",
+    "elements": ["Ice"],
+    "ailments": ["Iceblight"],
+    "resistances": ["Ice", "Water", "Dragon"],
+    "threat_level": 1,
+    "weaknesses": [
+      { "type": "fire", "rating": 3 },
+      { "type": "poison", "rating": 3 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "stun", "rating": 2 },
+      { "type": "blast", "rating": 3 },
+      { "type": "paralysis", "rating": 3 }
+    ],
+    "locations": [
+      { "name": "Frost Islands", "color": "0xBF5726" },
+      { "name": "The Citadel", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Lucent Nargacuga",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "Lucent Nargacuga hide in the night's fog and moonlight, springing assaults with neither shape nor shadow. Astounding agility and marvelous mobility make them difficult to capture with the naked eye. The throng of toxic tailspikes they launch make these wyverns perilous beasts indeed.",
+    "useful_info": "Lucent Nargacuga conceal themselves using fog and moonlight during certain attacks. Look out for signs of attack and try to predict their movements. Careful when their tail bristles, they can launch tailspikes or unleash an array of other deadly tail attacks.",
+    "elements": [],
+    "ailments": ["Poison"],
+    "resistances": ["Fire", "Thunder"],
+    "threat_level": 9,
+    "weaknesses": [
+      { "type": "ice", "rating": 3 },
+      { "type": "dragon", "rating": 2 },
+      { "type": "water", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "paralysis", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Shrine Ruins", "color": "0xBF5726" },
+      { "name": "The Citadel", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Lunagaron",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Wyvern",
+    "description": "Lunagaron have an organ that chills the air they inhale, circulating it throughout their body in a unique form of thermoregulation. They can travel long distances and endure environmental changes, allowing them to occupy a wide range of habitats.",
+    "useful_info": "Lunagaron have different attacks depending on their stance. They also use ice attacks, so raising your ice resistance should give you an edge. When covered in ice, a continuous assault will not only result in shattering the covering but will also topple the beast. Mind your positioning when powerful attacks are incoming.",
+    "elements": ["Ice"],
+    "ailments": [],
+    "resistances": ["Water", "Ice"],
+    "threat_level": 7,
+    "weaknesses": [
+      { "type": "fire", "rating": 3 },
+      { "type": "thunder", "rating": 2 },
+      { "type": "dragon", "rating": 1 },
+      { "type": "water", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "paralysis", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Shrine Ruins", "color": "0xBF5726" },
+      { "name": "The Citadel", "color": "0xBF5726" },
+      { "name": "Frost Islands", "color": "0xBF5726" },
+      { "name": "The Jungle", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Magma Almudron",
+    "render": "",
+    "icon": "",
+    "species": "Leviathan",
+    "description": "They secrete a special liquid that melts the ground, allowing them to move freely through the earth. Known for their aggressive nature, they become extremely agitated when trespassers set foot on their turf, attacking them unrelentingly.",
+    "useful_info": "Attacking the tail can cause the rock to explode, causing damage. Enters a heated, softer state when preparing a rock or after moving around underground, marking the perfect time to attack.",
+    "elements": ["Fire"],
+    "ailments": [],
+    "resistances": ["Fire", "Thunder"],
+    "threat_level": 7,
+    "weaknesses": [
+      { "type": "water", "rating": 3 },
+      { "type": "ice", "rating": 2 },
+      { "type": "water", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 }
+    ],
+    "locations": [{ "name": "Lava Caverns", "color": "0xBF5726" }]
+  },
+  {
+    "name": "Magnamalo",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Wyvern",
+    "description": "Magnamalo is a monster with a carapace like tempered steel armor. The vapor around it is actually the expelling of trapped gases from the hordes of monsters Magnamalo has consumed. Its shrouded swings can inflict hellfireblight, which causes one to combust either spontaneously or when hit. Use a Deodorant or a Wirebug to rid yourself of hellfire.",
+    "useful_info": "The majority of Magnamalo's attacks involve its Hellfire. If you become afflicted with Hellfireblight, Wiredash to rid yourself of this status. You can counter its attacks by focusing on parts of its body that are emitting hellfire. If you can manage to ignite any of the vapor with your attacks, you can deal massive damage.",
+    "elements": [],
+    "ailments": ["Hellfireblight"],
+    "resistances": ["Fire", "Ice", "Dragon"],
+    "threat_level": 7,
+    "weaknesses": [
+      { "type": "water", "rating": 2 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "poison", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Lava Caverns", "color": "0xBF5726" },
+      { "name": "Frost Islands", "color": "0xBF5726" },
+      { "name": "Shrine Ruins", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Malzeno",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "A dragon covered with elegant silver scales. It uses the Qurio to drain the life energy of other living creatures, creeping around at night and attacking its prey from behind. It appears almost regal to start with, but after draining enough energy, it can turn a violent, fresh-blood crimson.",
+    "useful_info": "Certain attacks will cause Bloodblight, causing your life to continuously drain but your attacks to also heal you; keep the pressure on. The Bloodening will occur after a certain amount of time, leading to raging attacks; end it and get a knock down by hitting the red flashing areas on the arms and neck.",
+    "elements": [],
+    "ailments": ["Bloodblight"],
+    "resistances": ["Water", "Thunder"],
+    "threat_level": 8,
+    "weaknesses": [
+      { "type": "dragon", "rating": 2 },
+      { "type": "blast", "rating": 2 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Lava Caverns", "color": "0xBF5726" },
+      { "name": "The Citadel", "color": "0xBF5726" },
+      { "name": "Shrine Ruins", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Mizutsune",
+    "render": "",
+    "icon": "",
+    "species": "Leviathan",
+    "description": "A specially evolved Leviathan with a sleek, lithe body, Mizutsune can secrete a peculiar foam that covers its foes in immobilizing bubbles. Once its prey's movement is impaired, it closes in with spry, dance-like movements.",
+    "useful_info": "A Mizutsune slicks itself up to do a sliding attack, but its sliding also makes it susceptible to failing over, providing an opening for attack. If you're hit by its bubbles, you can scrub them off by running around and dodging furiously, or using a Cleanser.",
+    "elements": ["Water"],
+    "ailments": ["Waterblight", "Bubble"],
+    "resistances": ["Water", "Fire"],
+    "threat_level": 6,
+    "rampage_role": "stalker",
+    "weaknesses": [
+      { "type": "thunder", "rating": 3 },
+      { "type": "dragon", "rating": 2 },
+      { "type": "ice", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "poison", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Frost Islands", "color": "0xBF5726" },
+      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "The Jungle", "color": "0xBF5726" },
+      { "name": "Shrine Ruins", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Nargacuga",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Wyvern",
+    "description": "Covered in jet black fur, these cunning predators stalk their prey from the shadows and attack with ferocious speed. Their massive tails are as dexterous as they are deadly, and powerful enough to slay smaller monsters with one strike.",
+    "useful_info": "At the risk of missing the mark and simply riling it up further, its excellent hearing can be exploited by throwing a Sonic Bomb as it pauses to focus. It can destroy Pitfall Traps, so be discreet when placing them.",
+    "elements": [],
+    "ailments": [],
+    "resistances": ["Water", "Ice", "Dragon"],
+    "threat_level": 6,
+    "rampage_role": "stalker",
+    "weaknesses": [
+      { "type": "thunder", "rating": 3 },
+      { "type": "fire", "rating": 2 },
+      { "type": "blast", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "poison", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "The Jungle", "color": "0xBF5726" },
+      { "name": "Shrine Ruins", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Narwa The Allmother",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "Having absorbed the lifeforce of her \"king,\" Narwa has transformed and become imbued with new power. She now possesses Ibushi's mastery over wind as well as her own control over thunder, and lusts for utter annihilation.",
+    "useful_info": "Narwa's ability to now command the wind like Ibushi as well as employ her usual attacks makes her twice as deadly. Keep your eye on her stance as she attacks so you aren't caught off guard. Attack the areas on her body that have accumulated energy to give yourself the edge over her.",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "resistances": ["Thunder"],
+    "threat_level": 10,
+    "weaknesses": [
+      { "type": "dragon", "rating": 3 },
+      { "type": "ice", "rating": 2 },
+      { "type": "water", "rating": 1 },
+      { "type": "fire", "rating": 1 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [{ "name": "Coral Palace", "color": "0xBF5726" }]
+  },
+  {
+    "name": "Primordial Malzeno",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "Malzeno's original form before it was tainted by the Qurio. Ordinarily, it uses its wings and tail with the elegance of a knight, but under the Qurio's influence, it uses underhanded means of cornering its prey, and in its \"Bloodlust\" state it wields tremendous power.",
+    "useful_info": "Once overwhelmed by the Qurio, it transitions into its \"Bloodening\" state, which culminates in \"Bloodrage\" as it is corrupted. Dealing damage is the only way to mitigate this state. When this Malzeno gets low on health, it enters its \"Bloodlust\" state. Attacks won't calm it down in this state, so extreme cautioni is advised.",
+    "elements": ["Dragon"],
+    "ailments": ["Bloodblight"],
+    "resistances": ["Thunder", "Water"],
+    "threat_level": 10,
+    "weaknesses": [
+      { "type": "dragon", "rating": 3 },
+      { "type": "fire", "rating": 2 },
+      { "type": "ice", "rating": 1 },
+      { "type": "blast", "rating": 3 },
+      { "type": "stun", "rating": 3 },
+      { "type": "poison", "rating": 3 },
+      { "type": "sleep", "rating": 3 },
+      { "type": "paralysis", "rating": 3 }
+    ],
+    "locations": [{ "name": "The Citadel", "color": "0xBF5726" }]
+  },
+  {
+    "name": "Pukei-Pukei",
+    "render": "",
+    "icon": "",
+    "species": "Bird Wyvern",
+    "description": "A bird wyvern known to store toxins within its body. It uses its tongue like a whip and can stretch or shrink it at will, allowing it to grab up food. As a defense against threats, Pukei-Pukei have numerous toxic attacks.",
+    "useful_info": "The regurgitation of a Pukei-Pukei varies depending on what it has eaten: it may spread wider, linger on the ground, or even stun prey more easily. Check, therefore, that the monster's mouth and tail aren't swollen prior to engaging.",
+    "elements": [],
+    "ailments": ["Poison"],
+    "resistances": ["Dragon", "Water"],
+    "threat_level": 4,
+    "rampage_role": "targeter",
+    "weaknesses": [
+      { "type": "Thunder", "rating": 3 },
+      { "type": "ice", "rating": 2 },
+      { "type": "fire", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "sleep", "rating": 3 },
+      { "type": "paralysis", "rating": 3 }
+    ],
+    "locations": [
+      { "name": "Shrine Ruins", "color": "0xBF5726" },
+      { "name": "Sandy Plains", "color": "0xBF5726" },
+      { "name": "Flooded Forest", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Pyre Rakna-Kadaki",
+    "render": "",
+    "icon": "",
+    "species": "Temnoceran",
+    "description": "A subspecies of Rakna-Kadaki filled with explosive material, their bodies are covered in a dark red, explosion-resistant webbing. On offense, they strike their forelimbs like flints to induce explosions. An advanced chain of command lets them direct their offspring with a special sound-producing organ.",
+    "useful_info": "Attacking the abdomen reduces the number of Pyrantula they can spread around. Continued attacks cause them to lay eggs and stop coordinating with the tiny Temnocerans.",
+    "elements": ["Fire"],
+    "ailments": ["Webbed"],
+    "resistances": ["Dragon", "Fire", "Thunder"],
+    "threat_level": 7,
+    "weaknesses": [
+      { "type": "water", "rating": 3 },
+      { "type": "ice", "rating": 2 },
+      { "type": "stun", "rating": 2 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "paralysis", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Lava Caverns", "color": "0xBF5726" },
+      { "name": "The Citadel", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Rajang",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Beast",
+    "description": "An ultra-aggressive creature that is rarely sighted and seldom survived. Those that have survived report that it exhibits a strange attack. Rajang are said to be loners, and this isolated life has made it difficult to pin down its territorial leanings.",
+    "useful_info": "A Rajang is most dangerous when its arms are powered up, allowing it even to destroy Shock Traps. Attack its tail to remove this effect. In its regular state, it will alsobe immune to Pitfall Traps.",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "resistances": ["Dragon", "Fire", "Thunder", "Water"],
+    "threat_level": 8,
+    "rampage_role": "targeter",
+    "weaknesses": [
+      { "type": "ice", "rating": 3 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [
+      { "name": "Lava Caverns", "color": "0xBF5726" },
+      { "name": "Shrine Ruins", "color": "0xBF5726" },
+      { "name": "Frost Islands", "color": "0xBF5726" },
+      { "name": "Sandy Plains", "color": "0xBF5726" },
+      { "name": "Flooded Forest", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Rakna-Kadaki",
+    "render": "",
+    "icon": "",
+    "species": "Temnoceran",
+    "description": "A Rakna-Kadaki is usually seen covered in sticky webbing. Clinging to its abdomen are its offspring, known as Rachnoid, which it controls using the flammable gas that builds up there. Rachnoid spit fire, capture prey, and support the Rakna-Kadaki's massive body.",
+    "useful_info": "By staying below it, you will be able to hit many bodyparts with a single blow. But if you stay there for too long, it will emanate gas and the ignite it into fire. You have enough time to runaway before ignition.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight"],
+    "resistances": ["Dragon", "Fire", "Thunder"],
+    "threat_level": 7,
+    "weaknesses": [
+      { "type": "ice", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Lava Caverns", "color": "0xBF5726" },
+      { "name": "Sandy Plains", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Rathalos",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "Terrible wyverns called \"Kings of the Skies.\" Along with Rathian, they stake wide territories centered around their nests. Rathalos descend on invaders from the sky, attacking with poison claws and a breath of fire.",
+    "useful_info": "The King of the Skies lives up to its name by staying airborne for most of its attacks. A well-aimed Flash Bomb can help to bring a Rathalos down to earth, however.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight", "Poison"],
+    "resistances": ["Fire"],
+    "threat_level": 6,
+    "rampage_role": "targeter",
+    "weaknesses": [
+      { "type": "dragon", "rating": 3 },
+      { "type": "thunder", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Lava Caverns", "color": "0xBF5726" },
+      { "name": "Shrine Ruins", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Rathian",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "Fire-breathing female wyverns, also known as the \"Queens of the Land.\" With powerful legs and poison-secreting tails, they hunt mainly on the ground. Sometimes seen preying as a couple, Rathian and Rathalos cooperate well.",
+    "useful_info": "The strong venom in her tail, along with the wide reach of her sweeping attacks, makes maneuvering around the Rathian a dangerous feat. Cutting off her tail can give you quite a bit more breathing room.",
+    "elements": ["Fire", "Poison"],
+    "ailments": ["Fireblight", "Poison"],
+    "resistances": ["Fire"],
+    "threat_level": 4,
+    "rampage_role": "stalker",
+    "weaknesses": [
+      { "type": "dragon", "rating": 3 },
+      { "type": "thunder", "rating": 2 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Lava Caverns", "color": "0xBF5726" },
+      { "name": "Shrine Ruins", "color": "0xBF5726" },
+      { "name": "Sandy Plains", "color": "0xBF5726" },
+      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "The Jungle", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Risen Chameleos",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "By suppressing the Qurio virus, they have gained great strength and new abilities. They now boast superior poison and physicality, sending you off into a toxic nightmare if you lose sight of them.",
+    "useful_info": "When their anger reaches its peak, they'll enter into their Risen state and their body will begin to glow.",
+    "elements": [],
+    "ailments": ["Poison"],
+    "resistances": ["Poison"],
+    "threat_level": 10,
+    "weaknesses": [
+      { "type": "fire", "rating": 3 },
+      { "type": "dragon", "rating": 2 },
+      { "type": "thunder", "rating": 1 },
+      { "type": "stun", "rating": 3 },
+      { "type": "paralysis", "rating": 3 },
+      { "type": "sleep", "rating": 3 },
+      { "type": "stun", "rating": 3 },
+      { "type": "blast", "rating": 3 }
+    ],
+    "locations": [{ "name": "Shrine Ruins", "color": "0xBF5726" }]
+  },
+  {
+    "name": "Risen Crimson Glow Valstrax",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "Risen Crimson Glow Valstrax appears much the same as its non-Risen counterpart, albeit with a darker coloration, seemingly larger wings and what appears to be burn wounds across its body. Like other Risen Elder Dragons, these wounds take on a bright orange glow when the Monster is enraged.",
+    "useful_info": "After inflicting a sufficient amount of damage to a Risen elder dragon, they'll enter into a Risen state. In this state, thsie attacks are much more powerful. With Risen Crimson Glow Valstrax, they'll amass all their strength in one wing before doing a spin attack, and skewering their prey.",
+    "elements": ["Dragon"],
+    "ailments": ["Dragonblight"],
+    "resistances": ["Dragon"],
+    "threat_level": 10,
+    "weaknesses": [
+      { "type": "fire", "rating": 2 },
+      { "type": "water", "rating": 2 },
+      { "type": "thunder", "rating": 2 },
+      { "type": "ice", "rating": 2 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [{ "name": "Sandy Plains", "color": "0xBF5726" }]
+  },
+  {
+    "name": "Risen Kushala Daora",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "By suppressing the Qurio virus, they have gained great strength and new abilities. They command destructive storms, easily cornering their prey with a more varied arsenal of attacks than their regular counterparts.",
+    "useful_info": "After inflicting a sufficient amount of damage to a Risen elder dragon, they'll enter into a Risen state. In this state, their attacks are much more powerful. With Risen Kushala Daora, they II draw in everything around them and then unleash it as a giant tornado.",
+    "elements": [],
+    "ailments": ["Iceblight", "Dragonblight"],
+    "resistances": ["Ice", "Water"],
+    "threat_level": 10,
+    "weaknesses": [
+      { "type": "thunder", "rating": 3 },
+      { "type": "dragon", "rating": 2 },
+      { "type": "fire", "rating": 2 },
+      { "type": "water", "rating": 1 },
+      { "type": "blast", "rating": 3 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "The Citadel", "color": "0xBF5726" },
+      { "name": "Sandy Plains", "color": "0xBF5726" },
+      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "The Jungle", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Risen Teostra",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "By suppressing the Qurio virus, they have gained great strength and new abilities. They command destructive storms, easily cornering their prey with a more varied arsenal of attacks than their regular counterparts.",
+    "useful_info": "Risen Teostra unleashes an unrelenting inferno of explosions that create powerful shock waves. Stay on the offensive to prevent them from entering this state or to knock them out of it.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight", "Blastblight"],
+    "resistances": ["Fire", "Thunder", "Dragon"],
+    "threat_level": 10,
+    "weaknesses": [
+      { "type": "water", "rating": 2 },
+      { "type": "ice", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "The Citadel", "color": "0xBF5726" },
+      { "name": "Sandy Plains", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Royal Ludroth",
+    "render": "",
+    "icon": "",
+    "species": "Leviathan",
+    "description": "A larger male form of the regular Ludroth. Royal Ludroth use their sponge-like mane to absorb water and keep from drying out on land. Once the sponge loses moisture, they will seek out water to recover. They also spew mucus to trip up their prey.",
+    "useful_info": "The Royal Ludroth's attacks are empowered when in proximity of water, and can inflict foes with water-blight. Combat this by stocking up on Nulberries and drawing it away from aquatic areas.",
+    "elements": ["Water"],
+    "ailments": ["Waterblight"],
+    "resistances": ["Water", "Dragon"],
+    "threat_level": 3,
+    "weaknesses": [
+      { "type": "fire", "rating": 3 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "The Jungle", "color": "0xBF5726" },
+      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Scorned Magnamalo",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Wyvern",
+    "description": "A Magnamalo variant that achieves an even more twisted, malevolent form. Filled with hatred, they are known as \"Scorned Magnamalo.\" Shrouded in Hellfire at all times, they also boast larger arm blades and harder armor plating.",
+    "useful_info": "The Royal Ludroth's attacks are empowered when in proximity of water, and can inflict foes with water-blight. Combat this by stocking up on Nulberries and drawing it away from aquatic areas.",
+    "elements": [],
+    "ailments": ["Hellfireblight"],
+    "resistances": ["Fire", "Dragon"],
+    "threat_level": 10,
+    "weaknesses": [
+      { "type": "water", "rating": 3 },
+      { "type": "thunder", "rating": 2 },
+      { "type": "ice", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 2 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "The Jungle", "color": "0xBF5726" },
+      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xBF5726" },
+      { "name": "Shrine Ruins", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Seething Bazelgeuse",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "A Bazelgeuse variant whose body seems to smolder, like it could go critical at any moment. The heat of their explosive scales have grown, their pale blue glow worthy of the \"Seething\" moniker.",
+    "useful_info": "Keep an eye on their head and tail scales when they start glowing a phosphorescent white. These scales have a wide blast radius and are extremely dangerous.",
+    "elements": ["Fire", "Blast"],
+    "ailments": ["Fireblight", "Blastblight"],
+    "resistances": ["Fire", "Water"],
+    "threat_level": 9,
+    "weaknesses": [
+      { "type": "thunder", "rating": 2 },
+      { "type": "ice", "rating": 3 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "sleep", "rating": 3 }
+    ],
+    "locations": [
+      { "name": "The Jungle", "color": "0xBF5726" },
+      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xBF5726" },
+      { "name": "Shrine Ruins", "color": "0xBF5726" },
+      { "name": "The Citadel", "color": "0xBF5726" },
+      { "name": "Sandy Plains", "color": "0xBF5726" },
+      { "name": "Frost Islands", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Seregios",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "Seregios are well-known as extremely territorial and belligerent creatures, wielding their aerial mobility and powerful hind leg attacks in intense combat against other large monsters.",
+    "useful_info": "When battling Seregios, watch out for flanking aerial movements, and vicious hind leg attacks. The razor-like scales they launch from all over their body can inflict Bleeding if too many connect, increasing future damage as you attack or evade.",
+    "elements": [],
+    "ailments": ["Bleeding"],
+    "resistances": ["Fire", "Water", "Dragon"],
+    "threat_level": 7,
+    "weaknesses": [
+      { "type": "thunder", "rating": 3 },
+      { "type": "ice", "rating": 2 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Shrine Ruins", "color": "0xBF5726" },
+      { "name": "The Citadel", "color": "0xBF5726" },
+      { "name": "Sandy Plains", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Shagaru Magala",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "The form taken by Gore Magala once they mature and molt. Gorgeous, glittering scales cover Shagaru Magala, and their divine wings are large enough to wrap around their entire body.",
+    "useful_info": "The Frenzy is as much of a threat as ever, so don't forget to bring Nulberries. Keep your eyes and ears peeled for powerful wingarm strikes and their bevy of breath attacks.",
+    "elements": [],
+    "ailments": ["Frenzy Virus"],
+    "resistances": ["Water", "Ice"],
+    "threat_level": 8,
+    "weaknesses": [
+      { "type": "thunder", "rating": 1 },
+      { "type": "dragon", "rating": 3 },
+      { "type": "fire", "rating": 2 },
+      { "type": "poison", "rating": 3 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [{ "name": "The Citadel", "color": "0xBF5726" }]
+  },
+  {
+    "name": "Shogun Ceanataur",
+    "render": "",
+    "icon": "",
+    "species": "Carapaceon",
+    "description": "These large Carapaceons can be found around volcanoes and in the Flooded Forest. Shogun Ceanataur wield long, developed claws that are usually folded away, but unfurl into terrifying blades when enraged.",
+    "useful_info": "Shogun Ceanataur change up the way they fight depending on the shell they wear. Breaking the shell exposes the weak point, so focus your attention there.",
+    "elements": ["Water"],
+    "ailments": ["Bleeding"],
+    "resistances": ["Water", "Dragon"],
+    "threat_level": 6,
+    "weaknesses": [
+      { "type": "thunder", "rating": 3 },
+      { "type": "ice", "rating": 2 },
+      { "type": "fire", "rating": 3 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [
+      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Silver Rathalos",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "Known as the Silver Fire Wyvern, or alternatively the Silver Sun, as inspired by their majestic appearance. These wyverns are known for their fierce breath and even fiercer claws, giving these threatening beasts exceptional combat ability.",
+    "useful_info": "When in their Incandescent state, their breath attacks grow more potent, but their head also becomes weaker.",
+    "elements": ["Fire"],
+    "ailments": ["Fireblight"],
+    "resistances": ["Fire", "Dragon"],
+    "threat_level": 9,
+    "weaknesses": [
+      { "type": "thunder", "rating": 2 },
+      { "type": "ice", "rating": 1 },
+      { "type": "water", "rating": 3 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "paralysis", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Shrine Ruins", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xBF5726" },
+      { "name": "The Citadel", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Somnacanth",
+    "render": "",
+    "icon": "",
+    "species": "Leviathan",
+    "description": "A formidable aquatic serpent that crests on moonlit nights--likely why is has often been mistaken for a mermaid. It expels an intoxicating sleep powder from its neck gills and tail, knocking out prey before it can resist.",
+    "useful_info": "While in the water, it can move about as it pleases, but it doesn't fare so well on land, so draw it out to shore for an easy hunt.",
+    "elements": [],
+    "ailments": ["Blastblight", "Sleep", "Stun"],
+    "resistances": ["Water", "Ice", "Dragon"],
+    "threat_level": 5,
+    "weaknesses": [
+      { "type": "thunder", "rating": 3 },
+      { "type": "fire", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Frost Islands", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xBF5726" },
+      { "name": "Flooded Forest", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Teostra",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "Brutal elder dragons wreathed in flames that spew blazing fire. Teostra are of such a fierce and deadly nature that the Guild closely monitors their movements.",
+    "useful_info": "The black scale dust a Teostra scatters will spread over a wide area until it finally explodes. However, reports claim that damaging the elder dragon's head can prevent the large explosions.",
+    "elements": ["Fire"],
+    "ailments": ["Blastblight", "Fireblight"],
+    "resistances": ["Fire", "Thunder", "Dragon"],
+    "threat_level": 8,
+    "weaknesses": [
+      { "type": "thunder", "rating": 2 },
+      { "type": "ice", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Sandy Plains", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Tetranadon",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "An amphibious monster resembling a frog. Its appetite is infinite, and if it sees anything moving, it will gobble it up, dirt an all. It's theorized that the dirt it consumes builds up in its stomach and aids in digestion.",
+    "useful_info": "After a large meal, its movements become sluggish, but don't be fooled; its swings become more weighty and destructive as well!",
+    "elements": ["Water"],
+    "ailments": ["Waterblight"],
+    "resistances": ["Water", "Ice", "Dragon"],
+    "threat_level": 2,
+    "rampage_role": "gate crasher",
+    "weaknesses": [
+      { "type": "thunder", "rating": 3 },
+      { "type": "fire", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 3 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Shrine Ruins", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xBF5726" },
+      { "name": "Frost Islands", "color": "0xBF5726" },
+      { "name": "The Jungle", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Thunder Serpent Narwa",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "Narwa is an elder dragon and Wind Serpent's Ibushi's \"queen.\" Its thundersacs glow with accumulated electrical charge; it is thought that these organs therefore generate the powerful magnetic field that lifts the creature and anything around it high into the air.",
+    "useful_info": "Attacking its thundersacs that have stored energy will cause them to discharge, grounding the beast. Those on its underside are its weakest, provided you can time an attack for when they aren't blocked by its fins.",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "resistances": ["Water", "Fire", "Thunder"],
+    "threat_level": 10,
+    "weaknesses": [
+      { "type": "dragon", "rating": 3 },
+      { "type": "ice", "rating": 2 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [{ "name": "Coral Palace", "color": "0xBF5726" }]
+  },
+  {
+    "name": "Tigrex",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "Flying wyverns whose primitive origins are obvious. Prone to violence, they display incredible ferocity with their claws, jaws, and developed limbs.",
+    "useful_info": "During the hunt, keep to its side to stay outside its range; let it keep charging and eventually it will tire and slow down, opening itself up to your counterattack.",
+    "elements": [],
+    "ailments": [],
+    "resistances": ["Ice", "Fire"],
+    "threat_level": 7,
+    "rampage_role": "stalker",
+    "weaknesses": [
+      { "type": "dragon", "rating": 2 },
+      { "type": "thunder", "rating": 3 },
+      { "type": "blast", "rating": 2 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "poison", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Frost Islands", "color": "0xBF5726" },
+      { "name": "Sandy Plains", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xBF5726" },
+      { "name": "The Citadel", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Tobi-Kadachi",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Wyvern",
+    "description": "A fanged wyvern that flies among the treetops. Its penchant to brush against the ground and the trees as it moves around builds up static electricity within its fur.",
+    "useful_info": "Always keep the Tobi-Kadachi in your sights to avoid being ambushed from behind. The key to defeating this monster is to immobilize it and prevent it from reaching a charged state.",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "resistances": ["Thunder", "Dragon"],
+    "threat_level": 5,
+    "weaknesses": [
+      { "type": "water", "rating": 3 },
+      { "type": "fire", "rating": 2 },
+      { "type": "ice", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "poison", "rating": 3 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Shrine Ruins", "color": "0xBF5726" },
+      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "The Jungle", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Velkhana",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "Velkhana's control over ice and the cold has adverse effects on the weather where ever the Elder Dragon prowls.",
+    "useful_info": "Velkhana clad themselves in armor made of ice. By destroying parts of this icy armor, it is possible to suppress their immense power, but precision is required.",
+    "elements": ["Ice"],
+    "ailments": ["Iceblight"],
+    "resistances": ["Ice", "Water"],
+    "threat_level": 9,
+    "weaknesses": [
+      { "type": "dragon", "rating": 1 },
+      { "type": "fire", "rating": 2 },
+      { "type": "thunder", "rating": 1 },
+      { "type": "blast", "rating": 3 }
+    ],
+    "locations": [
+      { "name": "Frost Islands", "color": "0xBF5726" },
+      { "name": "The Citadel", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Volvidon",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Beast",
+    "description": "Fanged beasts with thick red carapaces that are resistant to lava. Their rounded bodies are perfect for rolling across hot surfaces, and their long tongues are ideal for capturing insect prey.",
+    "useful_info": "The toxin that Volvidon spit out can paralyze on contact, you'll also want to carry some Deodorant.",
+    "elements": [],
+    "ailments": ["Paralysis"],
+    "resistances": ["Fire", "Dragon"],
+    "threat_level": 4,
+    "weaknesses": [
+      { "type": "water", "rating": 3 },
+      { "type": "ice", "rating": 2 },
+      { "type": "blast", "rating": 2 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "stun", "rating": 2 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "poison", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Sandy Plains", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xBF5726" },
+      { "name": "The Citadel", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Wind Serpent Ibushi",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "A male elder dragon that exhibits inexplicable behaviors such as floating upside down midair. Research indicates that the emission of a special gas from all over its body, and the modulation of this gas, is what allows it to move freely.",
+    "useful_info": "It possesses special organs called \"windsacs\" that store the gas it uses to float, and can be seen on its back, and tail. They are very delicate, and injuring them could open up a prime opportunity to attack.",
+    "elements": ["Dragon"],
+    "ailments": ["Dragonblight"],
+    "resistances": ["Thunder", "Ice"],
+    "threat_level": 9,
+    "weaknesses": [
+      { "type": "water", "rating": 1 },
+      { "type": "fire", "rating": 2 },
+      { "type": "dragon", "rating": 3 },
+      { "type": "blast", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "poison", "rating": 1 }
+    ],
+    "locations": [{ "name": "Coral Palace", "color": "0xBF5726" }]
+  },
+  {
+    "name": "Zinogre",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Wyvern",
+    "description": "Fanged wyverns whose bodies are streaked with electricity. Sharp claws and strong limbs allow them to thrive in mountainous terrain.",
+    "useful_info": "In their supercharged states, Zinogre not only have different attack patterns but also become faster, hit harder, and gain immunity to Shock Traps.",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "resistances": ["Thunder", "Dragon"],
+    "threat_level": 6,
+    "rampage_role": "stalker",
+    "weaknesses": [
+      { "type": "water", "rating": 1 },
+      { "type": "ice", "rating": 2 },
+      { "type": "blast", "rating": 2 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "poison", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Shrine Ruins", "color": "0xBF5726" },
+      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "The Citadel", "color": "0xBF5726" },
+      { "name": "The Jungle", "color": "0xBF5726" }
+    ]
+  }
+]

@@ -1,8 +1,8 @@
-class WorldMonster
+class RiseMonster
   include Mongoid::Document
   include Mongoid::Timestamps
 
-  store_in collection: "world_monsters"
+  store_in collection: "rise_monsters"
 
   embeds_many :locations, class_name: "MonsterEmbed::Location", store_as: :locations
   embeds_many :weaknesses, class_name: "MonsterEmbed::Weakness", store_as: :weaknesses
@@ -16,6 +16,7 @@ class WorldMonster
   field :ailments, type: Array
   field :resistances, type: Array
   field :threatLevel, type: Integer, as: :threat_level
+  field :rampageRole, type: String, as: :rampage_role
   field :render, type: String
   field :icon, type: String
 
