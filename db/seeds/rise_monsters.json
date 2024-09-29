@@ -1802,7 +1802,7 @@
     "render": "",
     "icon": "",
     "species": "Fanged Wyvern",
-    "description": "A Magnamalo variant that achieves an even more twisted, malevolent form. Filled with hatred, they are known as "Scorned Magnamalo." Shrouded in Hellfire at all times, they also boast larger arm blades and harder armor plating.",
+    "description": "A Magnamalo variant that achieves an even more twisted, malevolent form. Filled with hatred, they are known as \"Scorned Magnamalo.\" Shrouded in Hellfire at all times, they also boast larger arm blades and harder armor plating.",
     "useful_info": "The Royal Ludroth's attacks are empowered when in proximity of water, and can inflict foes with water-blight. Combat this by stocking up on Nulberries and drawing it away from aquatic areas.",
     "elements": [],
     "ailments": ["Hellfireblight"],
@@ -1896,9 +1896,7 @@
       { "type": "poison", "rating": 3 },
       { "type": "stun", "rating": 1 }
     ],
-    "locations": [
-      { "name": "The Citadel", "color": "0xBF5726" }
-    ]
+    "locations": [{ "name": "The Citadel", "color": "0xBF5726" }]
   },
   {
     "name": "Shogun Ceanataur",
@@ -2042,9 +2040,7 @@
       { "type": "ice", "rating": 2 },
       { "type": "blast", "rating": 2 }
     ],
-    "locations": [
-      { "name": "Coral Palace", "color": "0xBF5726" }
-    ]
+    "locations": [{ "name": "Coral Palace", "color": "0xBF5726" }]
   },
   {
     "name": "Tigrex",
@@ -2170,9 +2166,7 @@
       { "type": "paralysis", "rating": 1 },
       { "type": "poison", "rating": 1 }
     ],
-    "locations": [
-      { "name": "Coral Palace", "color": "0xBF5726" }
-    ]
+    "locations": [{ "name": "Coral Palace", "color": "0xBF5726" }]
   },
   {
     "name": "Zinogre",
