@@ -1974,5 +1974,232 @@
       { "name": "Lava Caverns", "color": "0xBF5726" },
       { "name": "Flooded Forest", "color": "0xBF5726" }
     ]
+  },
+  {
+    "name": "Teostra",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "Brutal elder dragons wreathed in flames that spew blazing fire. Teostra are of such a fierce and deadly nature that the Guild closely monitors their movements.",
+    "useful_info": "The black scale dust a Teostra scatters will spread over a wide area until it finally explodes. However, reports claim that damaging the elder dragon's head can prevent the large explosions.",
+    "elements": ["Fire"],
+    "ailments": ["Blastblight", "Fireblight"],
+    "resistances": ["Fire", "Thunder", "Dragon"],
+    "threat_level": 8,
+    "weaknesses": [
+      { "type": "thunder", "rating": 2 },
+      { "type": "ice", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Sandy Plains", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Tetranadon",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "An amphibious monster resembling a frog. Its appetite is infinite, and if it sees anything moving, it will gobble it up, dirt an all. It's theorized that the dirt it consumes builds up in its stomach and aids in digestion.",
+    "useful_info": "After a large meal, its movements become sluggish, but don't be fooled; its swings become more weighty and destructive as well!",
+    "elements": ["Water"],
+    "ailments": ["Waterblight"],
+    "resistances": ["Water", "Ice", "Dragon"],
+    "threat_level": 2,
+    "rampage_role": "gate crasher",
+    "weaknesses": [
+      { "type": "thunder", "rating": 3 },
+      { "type": "fire", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "poison", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 3 },
+      { "type": "sleep", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Shrine Ruins", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xBF5726" },
+      { "name": "Frost Islands", "color": "0xBF5726" },
+      { "name": "The Jungle", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Thunder Serpent Narwa",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "Narwa is an elder dragon and Wind Serpent's Ibushi's \"queen.\" Its thundersacs glow with accumulated electrical charge; it is thought that these organs therefore generate the powerful magnetic field that lifts the creature and anything around it high into the air.",
+    "useful_info": "Attacking its thundersacs that have stored energy will cause them to discharge, grounding the beast. Those on its underside are its weakest, provided you can time an attack for when they aren't blocked by its fins.",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "resistances": ["Water", "Fire", "Thunder"],
+    "threat_level": 10,
+    "weaknesses": [
+      { "type": "dragon", "rating": 3 },
+      { "type": "ice", "rating": 2 },
+      { "type": "blast", "rating": 2 }
+    ],
+    "locations": [
+      { "name": "Coral Palace", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Tigrex",
+    "render": "",
+    "icon": "",
+    "species": "Flying Wyvern",
+    "description": "Flying wyverns whose primitive origins are obvious. Prone to violence, they display incredible ferocity with their claws, jaws, and developed limbs.",
+    "useful_info": "During the hunt, keep to its side to stay outside its range; let it keep charging and eventually it will tire and slow down, opening itself up to your counterattack.",
+    "elements": [],
+    "ailments": [],
+    "resistances": ["Ice", "Fire"],
+    "threat_level": 7,
+    "rampage_role": "stalker",
+    "weaknesses": [
+      { "type": "dragon", "rating": 2 },
+      { "type": "thunder", "rating": 3 },
+      { "type": "blast", "rating": 2 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "poison", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Frost Islands", "color": "0xBF5726" },
+      { "name": "Sandy Plains", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xBF5726" },
+      { "name": "The Citadel", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Tobi-Kadachi",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Wyvern",
+    "description": "A fanged wyvern that flies among the treetops. Its penchant to brush against the ground and the trees as it moves around builds up static electricity within its fur.",
+    "useful_info": "Always keep the Tobi-Kadachi in your sights to avoid being ambushed from behind. The key to defeating this monster is to immobilize it and prevent it from reaching a charged state.",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "resistances": ["Thunder", "Dragon"],
+    "threat_level": 5,
+    "weaknesses": [
+      { "type": "water", "rating": 3 },
+      { "type": "fire", "rating": 2 },
+      { "type": "ice", "rating": 1 },
+      { "type": "blast", "rating": 2 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "poison", "rating": 3 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "stun", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Shrine Ruins", "color": "0xBF5726" },
+      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "The Jungle", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Velkhana",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "Velkhana's control over ice and the cold has adverse effects on the weather where ever the Elder Dragon prowls.",
+    "useful_info": "Velkhana clad themselves in armor made of ice. By destroying parts of this icy armor, it is possible to suppress their immense power, but precision is required.",
+    "elements": ["Ice"],
+    "ailments": ["Iceblight"],
+    "resistances": ["Ice", "Water"],
+    "threat_level": 9,
+    "weaknesses": [
+      { "type": "dragon", "rating": 1 },
+      { "type": "fire", "rating": 2 },
+      { "type": "thunder", "rating": 1 },
+      { "type": "blast", "rating": 3 }
+    ],
+    "locations": [
+      { "name": "Frost Islands", "color": "0xBF5726" },
+      { "name": "The Citadel", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Volvidon",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Beast",
+    "description": "Fanged beasts with thick red carapaces that are resistant to lava. Their rounded bodies are perfect for rolling across hot surfaces, and their long tongues are ideal for capturing insect prey.",
+    "useful_info": "The toxin that Volvidon spit out can paralyze on contact, you'll also want to carry some Deodorant.",
+    "elements": [],
+    "ailments": ["Paralysis"],
+    "resistances": ["Fire", "Dragon"],
+    "threat_level": 4,
+    "weaknesses": [
+      { "type": "water", "rating": 3 },
+      { "type": "ice", "rating": 2 },
+      { "type": "blast", "rating": 2 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "stun", "rating": 2 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "poison", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Sandy Plains", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xBF5726" },
+      { "name": "The Citadel", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Wind Serpent Ibushi",
+    "render": "",
+    "icon": "",
+    "species": "Elder Dragon",
+    "description": "A male elder dragon that exhibits inexplicable behaviors such as floating upside down midair. Research indicates that the emission of a special gas from all over its body, and the modulation of this gas, is what allows it to move freely.",
+    "useful_info": "It possesses special organs called \"windsacs\" that store the gas it uses to float, and can be seen on its back, and tail. They are very delicate, and injuring them could open up a prime opportunity to attack.",
+    "elements": ["Dragon"],
+    "ailments": ["Dragonblight"],
+    "resistances": ["Thunder", "Ice"],
+    "threat_level": 9,
+    "weaknesses": [
+      { "type": "water", "rating": 1 },
+      { "type": "fire", "rating": 2 },
+      { "type": "dragon", "rating": 3 },
+      { "type": "blast", "rating": 1 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "poison", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Coral Palace", "color": "0xBF5726" }
+    ]
+  },
+  {
+    "name": "Zinogre",
+    "render": "",
+    "icon": "",
+    "species": "Fanged Wyvern",
+    "description": "Fanged wyverns whose bodies are streaked with electricity. Sharp claws and strong limbs allow them to thrive in mountainous terrain.",
+    "useful_info": "In their supercharged states, Zinogre not only have different attack patterns but also become faster, hit harder, and gain immunity to Shock Traps.",
+    "elements": ["Thunder"],
+    "ailments": ["Thunderblight"],
+    "resistances": ["Thunder", "Dragon"],
+    "threat_level": 6,
+    "rampage_role": "stalker",
+    "weaknesses": [
+      { "type": "water", "rating": 1 },
+      { "type": "ice", "rating": 2 },
+      { "type": "blast", "rating": 2 },
+      { "type": "sleep", "rating": 1 },
+      { "type": "stun", "rating": 1 },
+      { "type": "paralysis", "rating": 1 },
+      { "type": "poison", "rating": 1 }
+    ],
+    "locations": [
+      { "name": "Shrine Ruins", "color": "0xBF5726" },
+      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "The Citadel", "color": "0xBF5726" },
+      { "name": "The Jungle", "color": "0xBF5726" }
+    ]
   }
 ]
