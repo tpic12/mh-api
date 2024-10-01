@@ -7,5 +7,6 @@ module MonsterEmbed
     field :name, type: String
     field :color, type: String
     field :icon, type: String
+    field :tempered, type: Boolean
   end
 end
