@@ -19,7 +19,7 @@ module World
     private
 
     def get_monster_by_name(name)
-      match = WorldMonster.where(name: /#{name}/i)
+      match = WorldMonster.where(name: name.downcase)
       return match unless match.empty?
 
       fz = FuzzyMatch.new(WorldMonster.all, :read => :name)
