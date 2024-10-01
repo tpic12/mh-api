@@ -46,18 +46,9 @@
       }
     ],
     "locations": [
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Frost Islands",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Jungle",
-        "color": "0xBF5726"
-      }
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "Frost Islands", "color": "0x8ABEEB" },
+      { "name": "The Jungle", "color": "0x1E9E47" }
     ]
   },
   {
@@ -99,18 +90,9 @@
       }
     ],
     "locations": [
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Sandy Plains",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Flooded Forest",
-        "color": "0xBF5726"
-      }
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "Sandy Plains", "color": "0xF2A22C" },
+      { "name": "Flooded Forest", "color": "#66bf9b" }
     ]
   },
   {
@@ -134,30 +116,12 @@
       { "type": "stun", "rating": 1 }
     ],
     "locations": [
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Sandy Plains",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Flooded Forest",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Lava Caverns",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Citadel",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Jungle",
-        "color": "0xBF5726"
-      }
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "Sandy Plains", "color": "0xF2A22C" },
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "Lava Caverns", "color": "0xED512F" },
+      { "name": "The Citadel", "color": "#60accd" },
+      { "name": "The Jungle", "color": "0x1E9E47" }
     ]
   },
   {
@@ -180,18 +144,9 @@
       { "type": "stun", "rating": 1 }
     ],
     "locations": [
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Flooded Forest",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Red Stronghold",
-        "color": "0xBF5726"
-      }
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "Red Stronghold", "color": "0xBF5726" }
     ]
   },
   {
@@ -215,14 +170,8 @@
       { "type": "stun", "rating": 1 }
     ],
     "locations": [
-      {
-        "name": "Sandy Plains",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Red Stronghold",
-        "color": "0xBF5726"
-      }
+      { "name": "Sandy Plains", "color": "0xF2A22C" },
+      { "name": "Red Stronghold", "color": "0xBF5726" }
     ]
   },
   {
@@ -245,26 +194,11 @@
       { "type": "stun", "rating": 1 }
     ],
     "locations": [
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Red Stronghold",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Frost Islands",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Flooded Forest",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Infernal Springs",
-        "color": "0xBF5726"
-      }
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "Red Stronghold", "color": "0xBF5726" },
+      { "name": "Frost Islands", "color": "0x8ABEEB" },
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "Infernal Springs", "color": "0xBF5726" }
     ]
   },
   {
@@ -285,22 +219,10 @@
       { "type": "stun", "rating": 1 }
     ],
     "locations": [
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Red Stronghold",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Lava Caverns",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Infernal Springs",
-        "color": "0xBF5726"
-      }
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "Red Stronghold", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xED512F" },
+      { "name": "Infernal Springs", "color": "0xBF5726" }
     ]
   },
   {
@@ -321,26 +243,11 @@
       { "type": "stun", "rating": 1 }
     ],
     "locations": [
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Red Stronghold",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Lava Caverns",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Flooded Forest",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Sandy Plains",
-        "color": "0xBF5726"
-      }
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "Red Stronghold", "color": "0xBF5726" },
+      { "name": "Lava Caverns", "color": "0xED512F" },
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "Sandy Plains", "color": "0xF2A22C" }
     ]
   },
   {
@@ -362,22 +269,10 @@
       { "type": "blast", "rating": 2 }
     ],
     "locations": [
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Red Stronghold",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Infernal Springs",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Flooded Forest",
-        "color": "0xBF5726"
-      }
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "Red Stronghold", "color": "0xBF5726" },
+      { "name": "Infernal Springs", "color": "0xBF5726" },
+      { "name": "Flooded Forest", "color": "#66bf9b" }
     ]
   },
   {
@@ -403,18 +298,9 @@
       { "type": "paralysis", "rating": 3 }
     ],
     "locations": [
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Citadel",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Flooded Forest",
-        "color": "0xBF5726"
-      }
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "The Citadel", "color": "#60accd" },
+      { "name": "Flooded Forest", "color": "#66bf9b" }
     ]
   },
   {
@@ -436,18 +322,9 @@
       { "type": "paralysis", "rating": 1 }
     ],
     "locations": [
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Jungle",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Flooded Forest",
-        "color": "0xBF5726"
-      }
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "The Jungle", "color": "0x1E9E47" },
+      { "name": "Flooded Forest", "color": "#66bf9b" }
     ]
   },
   {
@@ -469,14 +346,8 @@
       { "type": "paralysis", "rating": 1 }
     ],
     "locations": [
-      {
-        "name": "Frost Islands",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Citadel",
-        "color": "0xBF5726"
-      }
+      { "name": "Frost Islands", "color": "0x8ABEEB" },
+      { "name": "The Citadel", "color": "#60accd" }
     ]
   },
   {
@@ -500,14 +371,8 @@
       { "type": "sleep", "rating": 1 }
     ],
     "locations": [
-      {
-        "name": "Frost Islands",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Citadel",
-        "color": "0xBF5726"
-      }
+      { "name": "Frost Islands", "color": "0x8ABEEB" },
+      { "name": "The Citadel", "color": "#60accd" }
     ]
   },
   {
@@ -529,12 +394,7 @@
       { "type": "paralysis", "rating": 3 },
       { "type": "sleep", "rating": 1 }
     ],
-    "locations": [
-      {
-        "name": "Sandy Plains",
-        "color": "0xBF5726"
-      }
-    ]
+    "locations": [{ "name": "Sandy Plains", "color": "0xF2A22C" }]
   },
   {
     "name": "Basarios",
@@ -557,14 +417,8 @@
       { "type": "sleep", "rating": 3 }
     ],
     "locations": [
-      {
-        "name": "Sandy Plains",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Lava Caverns",
-        "color": "0xBF5726"
-      }
+      { "name": "Sandy Plains", "color": "0xF2A22C" },
+      { "name": "Lava Caverns", "color": "0xED512F" }
     ]
   },
   {
@@ -587,26 +441,11 @@
       { "type": "sleep", "rating": 1 }
     ],
     "locations": [
-      {
-        "name": "Sandy Plains",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Lava Caverns",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Flooded Forest",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Frost Islands",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      }
+      { "name": "Sandy Plains", "color": "0xF2A22C" },
+      { "name": "Lava Caverns", "color": "0xED512F" },
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "Frost Islands", "color": "0x8ABEEB" },
+      { "name": "Shrine Ruins", "color": "#54b668" }
     ]
   },
   {
@@ -630,18 +469,9 @@
       { "type": "blast", "rating": 2 }
     ],
     "locations": [
-      {
-        "name": "Flooded Forest",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Jungle",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      }
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "The Jungle", "color": "0x1E9E47" },
+      { "name": "Shrine Ruins", "color": "#54b668" }
     ]
   },
   {
@@ -664,18 +494,9 @@
       { "type": "poison", "rating": 1 }
     ],
     "locations": [
-      {
-        "name": "Sandy Plains",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Citadel",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      }
+      { "name": "Sandy Plains", "color": "0xF2A22C" },
+      { "name": "The Citadel", "color": "#60accd" },
+      { "name": "Shrine Ruins", "color": "#54b668" }
     ]
   },
   {
@@ -696,14 +517,8 @@
       { "type": "blast", "rating": 2 }
     ],
     "locations": [
-      {
-        "name": "Flooded Forest",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      }
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "Shrine Ruins", "color": "#54b668" }
     ]
   },
   {
@@ -726,22 +541,10 @@
       { "type": "poison", "rating": 1 }
     ],
     "locations": [
-      {
-        "name": "Flooded Forest",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Citadel",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Jungle",
-        "color": "0xBF5726"
-      }
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "The Citadel", "color": "#60accd" },
+      { "name": "The Jungle", "color": "0x1E9E47" }
     ]
   },
   {
@@ -763,34 +566,13 @@
       { "type": "blast", "rating": 2 }
     ],
     "locations": [
-      {
-        "name": "Flooded Forest",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Citadel",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Jungle",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Frost Islands",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Sandy Plains",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Lava Caverns",
-        "color": "0xBF5726"
-      }
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "The Citadel", "color": "#60accd" },
+      { "name": "The Jungle", "color": "0x1E9E47" },
+      { "name": "Frost Islands", "color": "0x8ABEEB" },
+      { "name": "Sandy Plains", "color": "0xF2A22C" },
+      { "name": "Lava Caverns", "color": "0xED512F" }
     ]
   },
   {
@@ -813,22 +595,10 @@
       { "type": "poison", "rating": 3 }
     ],
     "locations": [
-      {
-        "name": "Flooded Forest",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Jungle",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Sandy Plains",
-        "color": "0xBF5726"
-      }
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "The Jungle", "color": "0x1E9E47" },
+      { "name": "Sandy Plains", "color": "0xF2A22C" }
     ]
   },
   {
@@ -852,12 +622,7 @@
       { "type": "sleep", "rating": 1 },
       { "type": "poison", "rating": 1 }
     ],
-    "locations": [
-      {
-        "name": "Sandy Plains",
-        "color": "0xBF5726"
-      }
-    ]
+    "locations": [{ "name": "Sandy Plains", "color": "0xF2A22C" }]
   },
   {
     "name": "Espinas",
@@ -878,14 +643,8 @@
       { "type": "stun", "rating": 1 }
     ],
     "locations": [
-      {
-        "name": "The Citadel",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Jungle",
-        "color": "0xBF5726"
-      }
+      { "name": "The Citadel", "color": "#60accd" },
+      { "name": "The Jungle", "color": "0x1E9E47" }
     ]
   },
   {
@@ -905,34 +664,13 @@
       { "type": "blast", "rating": 2 }
     ],
     "locations": [
-      {
-        "name": "The Citadel",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Jungle",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Flooded Forest",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Frost Islands",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Sandy Plains",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Lava Caverns",
-        "color": "0xBF5726"
-      }
+      { "name": "The Citadel", "color": "#60accd" },
+      { "name": "The Jungle", "color": "0x1E9E47" },
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "Frost Islands", "color": "0x8ABEEB" },
+      { "name": "Sandy Plains", "color": "0xF2A22C" },
+      { "name": "Lava Caverns", "color": "0xED512F" }
     ]
   },
   {
@@ -952,12 +690,7 @@
       { "type": "fire", "rating": 1 },
       { "type": "blast", "rating": 2 }
     ],
-    "locations": [
-      {
-        "name": "Special",
-        "color": "0xBF5726"
-      }
-    ]
+    "locations": [{ "name": "Special", "color": "0xBF5726" }]
   },
   {
     "name": "Garangolm",
@@ -979,14 +712,8 @@
       { "type": "sleep", "rating": 1 }
     ],
     "locations": [
-      {
-        "name": "Flooded Forest",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Citadel",
-        "color": "0xBF5726"
-      }
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "The Citadel", "color": "#60accd" }
     ]
   },
   {
@@ -1009,22 +736,10 @@
       { "type": "sleep", "rating": 1 }
     ],
     "locations": [
-      {
-        "name": "Flooded Forest",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Citadel",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Jungle",
-        "color": "0xBF5726"
-      }
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "The Citadel", "color": "#60accd" },
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "The Jungle", "color": "0x1E9E47" }
     ]
   },
   {
@@ -1044,26 +759,11 @@
       { "type": "sleep", "rating": 1 }
     ],
     "locations": [
-      {
-        "name": "Flooded Forest",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Lava Caverns",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Jungle",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Sandy Plains",
-        "color": "0xBF5726"
-      }
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "Lava Caverns", "color": "0xED512F" },
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "The Jungle", "color": "0x1E9E47" },
+      { "name": "Sandy Plains", "color": "0xF2A22C" }
     ]
   },
   {
@@ -1086,14 +786,8 @@
       { "type": "sleep", "rating": 1 }
     ],
     "locations": [
-      {
-        "name": "Frost Islands",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Citadel",
-        "color": "0xBF5726"
-      }
+      { "name": "Frost Islands", "color": "0x8ABEEB" },
+      { "name": "The Citadel", "color": "#60accd" }
     ]
   },
   {
@@ -1116,12 +810,7 @@
       { "type": "stun", "rating": 1 },
       { "type": "paralysis", "rating": 3 }
     ],
-    "locations": [
-      {
-        "name": "Frost Islands",
-        "color": "0xBF5726"
-      }
-    ]
+    "locations": [{ "name": "Frost Islands", "color": "0x8ABEEB" }]
   },
   {
     "name": "Great Izuchi",
@@ -1145,14 +834,8 @@
       { "type": "sleep", "rating": 3 }
     ],
     "locations": [
-      {
-        "name": "Frost Islands",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      }
+      { "name": "Frost Islands", "color": "0x8ABEEB" },
+      { "name": "Shrine Ruins", "color": "#54b668" }
     ]
   },
   {
@@ -1176,22 +859,10 @@
       { "type": "sleep", "rating": 3 }
     ],
     "locations": [
-      {
-        "name": "Flooded Forest",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Shrine Ruins",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "Lava Caverns",
-        "color": "0xBF5726"
-      },
-      {
-        "name": "The Jungle",
-        "color": "0xBF5726"
-      }
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "Lava Caverns", "color": "0xED512F" },
+      { "name": "The Jungle", "color": "0x1E9E47" }
     ]
   },
   {
@@ -1211,7 +882,7 @@
       { "type": "paralysis", "rating": 1 },
       { "type": "stun", "rating": 2 }
     ],
-    "locations": [{ "name": "Flooded Forest", "color": "0xBF5726" }]
+    "locations": [{ "name": "Flooded Forest", "color": "#66bf9b" }]
   },
   {
     "name": "Khezu",
@@ -1233,7 +904,7 @@
       { "type": "blast", "rating": 2 }
     ],
     "locations": [
-      { "name": "Frost Islands", "color": "0xBF5726" },
+      { "name": "Frost Islands", "color": "0x8ABEEB" },
       { "name": "Lava Caverns", "color": "0xBF5726" }
     ]
   },
@@ -1257,10 +928,10 @@
       { "type": "blast", "rating": 2 }
     ],
     "locations": [
-      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "Flooded Forest", "color": "#66bf9b" },
       { "name": "Lava Caverns", "color": "0xBF5726" },
-      { "name": "Shrine Ruins", "color": "0xBF5726" },
-      { "name": "Sandy Plains", "color": "0xBF5726" }
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "Sandy Plains", "color": "0xF2A22C" }
     ]
   },
   {
@@ -1281,10 +952,10 @@
       { "type": "blast", "rating": 3 }
     ],
     "locations": [
-      { "name": "Flooded Forest", "color": "0xBF5726" },
-      { "name": "The Citadel", "color": "0xBF5726" },
-      { "name": "The Jungle", "color": "0xBF5726" },
-      { "name": "Sandy Plains", "color": "0xBF5726" }
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "The Citadel", "color": "#60accd" },
+      { "name": "The Jungle", "color": "0x1E9E47" },
+      { "name": "Sandy Plains", "color": "0xF2A22C" }
     ]
   },
   {
@@ -1307,8 +978,8 @@
       { "type": "paralysis", "rating": 3 }
     ],
     "locations": [
-      { "name": "Frost Islands", "color": "0xBF5726" },
-      { "name": "The Citadel", "color": "0xBF5726" }
+      { "name": "Frost Islands", "color": "0x8ABEEB" },
+      { "name": "The Citadel", "color": "#60accd" }
     ]
   },
   {
@@ -1332,8 +1003,8 @@
       { "type": "paralysis", "rating": 1 }
     ],
     "locations": [
-      { "name": "Shrine Ruins", "color": "0xBF5726" },
-      { "name": "The Citadel", "color": "0xBF5726" },
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "The Citadel", "color": "#60accd" },
       { "name": "Lava Caverns", "color": "0xBF5726" }
     ]
   },
@@ -1359,10 +1030,10 @@
       { "type": "paralysis", "rating": 1 }
     ],
     "locations": [
-      { "name": "Shrine Ruins", "color": "0xBF5726" },
-      { "name": "The Citadel", "color": "0xBF5726" },
-      { "name": "Frost Islands", "color": "0xBF5726" },
-      { "name": "The Jungle", "color": "0xBF5726" }
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "The Citadel", "color": "#60accd" },
+      { "name": "Frost Islands", "color": "0x8ABEEB" },
+      { "name": "The Jungle", "color": "0x1E9E47" }
     ]
   },
   {
@@ -1406,8 +1077,8 @@
     ],
     "locations": [
       { "name": "Lava Caverns", "color": "0xBF5726" },
-      { "name": "Frost Islands", "color": "0xBF5726" },
-      { "name": "Shrine Ruins", "color": "0xBF5726" }
+      { "name": "Frost Islands", "color": "0x8ABEEB" },
+      { "name": "Shrine Ruins", "color": "#54b668" }
     ]
   },
   {
@@ -1428,8 +1099,8 @@
     ],
     "locations": [
       { "name": "Lava Caverns", "color": "0xBF5726" },
-      { "name": "The Citadel", "color": "0xBF5726" },
-      { "name": "Shrine Ruins", "color": "0xBF5726" }
+      { "name": "The Citadel", "color": "#60accd" },
+      { "name": "Shrine Ruins", "color": "#54b668" }
     ]
   },
   {
@@ -1455,10 +1126,10 @@
       { "type": "poison", "rating": 1 }
     ],
     "locations": [
-      { "name": "Frost Islands", "color": "0xBF5726" },
-      { "name": "Flooded Forest", "color": "0xBF5726" },
-      { "name": "The Jungle", "color": "0xBF5726" },
-      { "name": "Shrine Ruins", "color": "0xBF5726" }
+      { "name": "Frost Islands", "color": "0x8ABEEB" },
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "The Jungle", "color": "0x1E9E47" },
+      { "name": "Shrine Ruins", "color": "#54b668" }
     ]
   },
   {
@@ -1483,9 +1154,9 @@
       { "type": "poison", "rating": 1 }
     ],
     "locations": [
-      { "name": "Flooded Forest", "color": "0xBF5726" },
-      { "name": "The Jungle", "color": "0xBF5726" },
-      { "name": "Shrine Ruins", "color": "0xBF5726" }
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "The Jungle", "color": "0x1E9E47" },
+      { "name": "Shrine Ruins", "color": "#54b668" }
     ]
   },
   {
@@ -1506,7 +1177,7 @@
       { "type": "fire", "rating": 1 },
       { "type": "blast", "rating": 2 }
     ],
-    "locations": [{ "name": "Coral Palace", "color": "0xBF5726" }]
+    "locations": [{ "name": "Coral Palace", "color": "#ff7f50" }]
   },
   {
     "name": "Primordial Malzeno",
@@ -1529,7 +1200,7 @@
       { "type": "sleep", "rating": 3 },
       { "type": "paralysis", "rating": 3 }
     ],
-    "locations": [{ "name": "The Citadel", "color": "0xBF5726" }]
+    "locations": [{ "name": "The Citadel", "color": "#60accd" }]
   },
   {
     "name": "Pukei-Pukei",
@@ -1553,9 +1224,9 @@
       { "type": "paralysis", "rating": 3 }
     ],
     "locations": [
-      { "name": "Shrine Ruins", "color": "0xBF5726" },
-      { "name": "Sandy Plains", "color": "0xBF5726" },
-      { "name": "Flooded Forest", "color": "0xBF5726" }
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "Sandy Plains", "color": "0xF2A22C" },
+      { "name": "Flooded Forest", "color": "#66bf9b" }
     ]
   },
   {
@@ -1578,7 +1249,7 @@
     ],
     "locations": [
       { "name": "Lava Caverns", "color": "0xBF5726" },
-      { "name": "The Citadel", "color": "0xBF5726" }
+      { "name": "The Citadel", "color": "#60accd" }
     ]
   },
   {
@@ -1599,10 +1270,10 @@
     ],
     "locations": [
       { "name": "Lava Caverns", "color": "0xBF5726" },
-      { "name": "Shrine Ruins", "color": "0xBF5726" },
-      { "name": "Frost Islands", "color": "0xBF5726" },
-      { "name": "Sandy Plains", "color": "0xBF5726" },
-      { "name": "Flooded Forest", "color": "0xBF5726" }
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "Frost Islands", "color": "0x8ABEEB" },
+      { "name": "Sandy Plains", "color": "0xF2A22C" },
+      { "name": "Flooded Forest", "color": "#66bf9b" }
     ]
   },
   {
@@ -1624,7 +1295,7 @@
     ],
     "locations": [
       { "name": "Lava Caverns", "color": "0xBF5726" },
-      { "name": "Sandy Plains", "color": "0xBF5726" }
+      { "name": "Sandy Plains", "color": "0xF2A22C" }
     ]
   },
   {
@@ -1648,7 +1319,7 @@
     ],
     "locations": [
       { "name": "Lava Caverns", "color": "0xBF5726" },
-      { "name": "Shrine Ruins", "color": "0xBF5726" }
+      { "name": "Shrine Ruins", "color": "#54b668" }
     ]
   },
   {
@@ -1672,10 +1343,10 @@
     ],
     "locations": [
       { "name": "Lava Caverns", "color": "0xBF5726" },
-      { "name": "Shrine Ruins", "color": "0xBF5726" },
-      { "name": "Sandy Plains", "color": "0xBF5726" },
-      { "name": "Flooded Forest", "color": "0xBF5726" },
-      { "name": "The Jungle", "color": "0xBF5726" }
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "Sandy Plains", "color": "0xF2A22C" },
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "The Jungle", "color": "0x1E9E47" }
     ]
   },
   {
@@ -1699,7 +1370,7 @@
       { "type": "stun", "rating": 3 },
       { "type": "blast", "rating": 3 }
     ],
-    "locations": [{ "name": "Shrine Ruins", "color": "0xBF5726" }]
+    "locations": [{ "name": "Shrine Ruins", "color": "#54b668" }]
   },
   {
     "name": "Risen Crimson Glow Valstrax",
@@ -1719,7 +1390,7 @@
       { "type": "ice", "rating": 2 },
       { "type": "blast", "rating": 2 }
     ],
-    "locations": [{ "name": "Sandy Plains", "color": "0xBF5726" }]
+    "locations": [{ "name": "Sandy Plains", "color": "0xF2A22C" }]
   },
   {
     "name": "Risen Kushala Daora",
@@ -1742,10 +1413,10 @@
       { "type": "stun", "rating": 1 }
     ],
     "locations": [
-      { "name": "The Citadel", "color": "0xBF5726" },
-      { "name": "Sandy Plains", "color": "0xBF5726" },
-      { "name": "Flooded Forest", "color": "0xBF5726" },
-      { "name": "The Jungle", "color": "0xBF5726" }
+      { "name": "The Citadel", "color": "#60accd" },
+      { "name": "Sandy Plains", "color": "0xF2A22C" },
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "The Jungle", "color": "0x1E9E47" }
     ]
   },
   {
@@ -1767,8 +1438,8 @@
       { "type": "stun", "rating": 1 }
     ],
     "locations": [
-      { "name": "The Citadel", "color": "0xBF5726" },
-      { "name": "Sandy Plains", "color": "0xBF5726" },
+      { "name": "The Citadel", "color": "#60accd" },
+      { "name": "Sandy Plains", "color": "0xF2A22C" },
       { "name": "Lava Caverns", "color": "0xBF5726" }
     ]
   },
@@ -1792,8 +1463,8 @@
       { "type": "sleep", "rating": 1 }
     ],
     "locations": [
-      { "name": "The Jungle", "color": "0xBF5726" },
-      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "The Jungle", "color": "0x1E9E47" },
+      { "name": "Flooded Forest", "color": "#66bf9b" },
       { "name": "Lava Caverns", "color": "0xBF5726" }
     ]
   },
@@ -1818,10 +1489,10 @@
       { "type": "sleep", "rating": 1 }
     ],
     "locations": [
-      { "name": "The Jungle", "color": "0xBF5726" },
-      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "The Jungle", "color": "0x1E9E47" },
+      { "name": "Flooded Forest", "color": "#66bf9b" },
       { "name": "Lava Caverns", "color": "0xBF5726" },
-      { "name": "Shrine Ruins", "color": "0xBF5726" }
+      { "name": "Shrine Ruins", "color": "#54b668" }
     ]
   },
   {
@@ -1844,13 +1515,13 @@
       { "type": "sleep", "rating": 3 }
     ],
     "locations": [
-      { "name": "The Jungle", "color": "0xBF5726" },
-      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "The Jungle", "color": "0x1E9E47" },
+      { "name": "Flooded Forest", "color": "#66bf9b" },
       { "name": "Lava Caverns", "color": "0xBF5726" },
-      { "name": "Shrine Ruins", "color": "0xBF5726" },
-      { "name": "The Citadel", "color": "0xBF5726" },
-      { "name": "Sandy Plains", "color": "0xBF5726" },
-      { "name": "Frost Islands", "color": "0xBF5726" }
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "The Citadel", "color": "#60accd" },
+      { "name": "Sandy Plains", "color": "0xF2A22C" },
+      { "name": "Frost Islands", "color": "0x8ABEEB" }
     ]
   },
   {
@@ -1873,9 +1544,9 @@
       { "type": "sleep", "rating": 1 }
     ],
     "locations": [
-      { "name": "Shrine Ruins", "color": "0xBF5726" },
-      { "name": "The Citadel", "color": "0xBF5726" },
-      { "name": "Sandy Plains", "color": "0xBF5726" }
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "The Citadel", "color": "#60accd" },
+      { "name": "Sandy Plains", "color": "0xF2A22C" }
     ]
   },
   {
@@ -1896,7 +1567,7 @@
       { "type": "poison", "rating": 3 },
       { "type": "stun", "rating": 1 }
     ],
-    "locations": [{ "name": "The Citadel", "color": "0xBF5726" }]
+    "locations": [{ "name": "The Citadel", "color": "#60accd" }]
   },
   {
     "name": "Shogun Ceanataur",
@@ -1920,7 +1591,7 @@
       { "type": "blast", "rating": 2 }
     ],
     "locations": [
-      { "name": "Flooded Forest", "color": "0xBF5726" },
+      { "name": "Flooded Forest", "color": "#66bf9b" },
       { "name": "Lava Caverns", "color": "0xBF5726" }
     ]
   },
@@ -1943,9 +1614,9 @@
       { "type": "paralysis", "rating": 1 }
     ],
     "locations": [
-      { "name": "Shrine Ruins", "color": "0xBF5726" },
+      { "name": "Shrine Ruins", "color": "#54b668" },
       { "name": "Lava Caverns", "color": "0xBF5726" },
-      { "name": "The Citadel", "color": "0xBF5726" }
+      { "name": "The Citadel", "color": "#60accd" }
     ]
   },
   {
@@ -1968,9 +1639,9 @@
       { "type": "stun", "rating": 1 }
     ],
     "locations": [
-      { "name": "Frost Islands", "color": "0xBF5726" },
+      { "name": "Frost Islands", "color": "0x8ABEEB" },
       { "name": "Lava Caverns", "color": "0xBF5726" },
-      { "name": "Flooded Forest", "color": "0xBF5726" }
+      { "name": "Flooded Forest", "color": "#66bf9b" }
     ]
   },
   {
@@ -1992,7 +1663,7 @@
       { "type": "stun", "rating": 1 }
     ],
     "locations": [
-      { "name": "Sandy Plains", "color": "0xBF5726" },
+      { "name": "Sandy Plains", "color": "0xF2A22C" },
       { "name": "Lava Caverns", "color": "0xBF5726" }
     ]
   },
@@ -2018,10 +1689,10 @@
       { "type": "sleep", "rating": 1 }
     ],
     "locations": [
-      { "name": "Shrine Ruins", "color": "0xBF5726" },
+      { "name": "Shrine Ruins", "color": "#54b668" },
       { "name": "Lava Caverns", "color": "0xBF5726" },
-      { "name": "Frost Islands", "color": "0xBF5726" },
-      { "name": "The Jungle", "color": "0xBF5726" }
+      { "name": "Frost Islands", "color": "0x8ABEEB" },
+      { "name": "The Jungle", "color": "0x1E9E47" }
     ]
   },
   {
@@ -2040,7 +1711,7 @@
       { "type": "ice", "rating": 2 },
       { "type": "blast", "rating": 2 }
     ],
-    "locations": [{ "name": "Coral Palace", "color": "0xBF5726" }]
+    "locations": [{ "name": "Coral Palace", "color": "#ff7f50" }]
   },
   {
     "name": "Tigrex",
@@ -2064,10 +1735,10 @@
       { "type": "stun", "rating": 1 }
     ],
     "locations": [
-      { "name": "Frost Islands", "color": "0xBF5726" },
-      { "name": "Sandy Plains", "color": "0xBF5726" },
+      { "name": "Frost Islands", "color": "0x8ABEEB" },
+      { "name": "Sandy Plains", "color": "0xF2A22C" },
       { "name": "Lava Caverns", "color": "0xBF5726" },
-      { "name": "The Citadel", "color": "0xBF5726" }
+      { "name": "The Citadel", "color": "#60accd" }
     ]
   },
   {
@@ -2092,9 +1763,9 @@
       { "type": "stun", "rating": 1 }
     ],
     "locations": [
-      { "name": "Shrine Ruins", "color": "0xBF5726" },
-      { "name": "Flooded Forest", "color": "0xBF5726" },
-      { "name": "The Jungle", "color": "0xBF5726" }
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "The Jungle", "color": "0x1E9E47" }
     ]
   },
   {
@@ -2115,8 +1786,8 @@
       { "type": "blast", "rating": 3 }
     ],
     "locations": [
-      { "name": "Frost Islands", "color": "0xBF5726" },
-      { "name": "The Citadel", "color": "0xBF5726" }
+      { "name": "Frost Islands", "color": "0x8ABEEB" },
+      { "name": "The Citadel", "color": "#60accd" }
     ]
   },
   {
@@ -2140,9 +1811,9 @@
       { "type": "poison", "rating": 1 }
     ],
     "locations": [
-      { "name": "Sandy Plains", "color": "0xBF5726" },
+      { "name": "Sandy Plains", "color": "0xF2A22C" },
       { "name": "Lava Caverns", "color": "0xBF5726" },
-      { "name": "The Citadel", "color": "0xBF5726" }
+      { "name": "The Citadel", "color": "#60accd" }
     ]
   },
   {
@@ -2166,7 +1837,7 @@
       { "type": "paralysis", "rating": 1 },
       { "type": "poison", "rating": 1 }
     ],
-    "locations": [{ "name": "Coral Palace", "color": "0xBF5726" }]
+    "locations": [{ "name": "Coral Palace", "color": "#ff7f50" }]
   },
   {
     "name": "Zinogre",
@@ -2190,10 +1861,10 @@
       { "type": "poison", "rating": 1 }
     ],
     "locations": [
-      { "name": "Shrine Ruins", "color": "0xBF5726" },
-      { "name": "Flooded Forest", "color": "0xBF5726" },
-      { "name": "The Citadel", "color": "0xBF5726" },
-      { "name": "The Jungle", "color": "0xBF5726" }
+      { "name": "Shrine Ruins", "color": "#54b668" },
+      { "name": "Flooded Forest", "color": "#66bf9b" },
+      { "name": "The Citadel", "color": "#60accd" },
+      { "name": "The Jungle", "color": "0x1E9E47" }
     ]
   }
 ]
