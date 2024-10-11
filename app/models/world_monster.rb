@@ -1,3 +1,5 @@
+require "fuzzy_match"
+
 class WorldMonster
   include Mongoid::Document
   include Mongoid::Timestamps
@@ -24,4 +26,12 @@ class WorldMonster
   index({ name: 1 })
   index({ species: 1 })
   index({ 'locations.name' => 1 })
+
+  def is_tempered(locale)
+    fz = FuzzyMatch.new(locations, :read => :name)
+    location = fz.find(locale)
+    return false unless location.present?
+
+    !!location.tempered
+  end
 end
