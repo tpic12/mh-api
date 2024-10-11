@@ -28,7 +28,8 @@ world_monsters.each do |monster_data|
       monster.locations.create!(
         name: location_data["name"],
         color: location_data["color"],
-        icon: location_data["icon"]
+        icon: location_data["icon"],
+        tempered: location_data["tempered"]
       )
     end
 
