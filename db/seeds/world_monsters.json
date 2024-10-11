@@ -212,7 +212,8 @@
     "locations": [
       {
         "name": "Forest Region",
-        "color": "0x1E9E47"
+        "color": "0x1E9E47",
+        "icon": "localeForest.png"
       },
       {
         "name": "Wildspire Region",
@@ -321,7 +322,8 @@
     "locations": [
       {
         "name": "Ancient Forest",
-        "color": "0x1E9E47"
+        "color": "0x1E9E47",
+        "icon": "localeForest.png"
       },
       {
         "name": "Wildspire Waste",
