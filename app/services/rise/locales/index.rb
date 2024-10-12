@@ -4,6 +4,17 @@ module Rise
   module Locales
     class Index
 
+      LOCALES = [
+        "Shrine Ruins",
+        "Sandy Plains",
+        "Flooded Forest",
+        "Lava Caverns",
+        "The Citadel",
+        "The Jungle",
+        "Infernal Springs",
+        "Frost Islands"
+      ].freeze
+
       def initialize(params)
         @locale = params["locale"]
         @by_threat_level = params&.[]("filter")&.[]("by_threat_level")
@@ -31,8 +42,12 @@ module Rise
         reduce_by_threat_level(monsters)
       end
 
+      def locale_match
+        @locale_match ||= FuzzyMatch.new(LOCALES).find(@locale)
+      end
+
       def monsters_by_locale
-        RiseMonster.where("locations.name": /#{@locale}/i)
+        RiseMonster.where("locations.name": "#{locale_match}")
       end
 
       def reduce_by_threat_level(monsters)
