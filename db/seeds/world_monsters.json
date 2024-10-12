@@ -75,7 +75,7 @@
     "elements": ["None"],
     "ailments": ["Bleeding"],
     "resistances": ["Water", "Sleep"],
-    "threat_level": 3,
+    "threat_level": 0,
     "weaknesses": [
       {
         "type": "fire",
@@ -212,7 +212,8 @@
     "locations": [
       {
         "name": "Forest Region",
-        "color": "0x1E9E47"
+        "color": "0x1E9E47",
+        "icon": "localeForest.png"
       },
       {
         "name": "Wildspire Region",
@@ -321,7 +322,8 @@
     "locations": [
       {
         "name": "Ancient Forest",
-        "color": "0x1E9E47"
+        "color": "0x1E9E47",
+        "icon": "localeForest.png"
       },
       {
         "name": "Wildspire Waste",
@@ -351,7 +353,7 @@
     "elements": ["Fire", "Thunder"],
     "ailments": ["Bleeding", "Fireblight", "Thunderblight"],
     "resistances": ["None"],
-    "threat_level": 3,
+    "threat_level": 0,
     "weaknesses": [
       { "type": "dragon", "rating": 3 },
       { "type": "ice", "rating": 2 },
@@ -641,7 +643,7 @@
     "elements": ["Fire"],
     "ailments": ["Blastblight"],
     "resistances": ["Fire"],
-    "threat_level": 3,
+    "threat_level": 0,
     "weaknesses": [
       { "type": "thunder", "rating": 3 },
       { "type": "water", "rating": 2 },
@@ -866,7 +868,7 @@
     "elements": ["None"],
     "ailments": ["Paralysis"],
     "resistances": ["Thunder"],
-    "threat_level": 3,
+    "threat_level": 0,
     "weaknesses": [
       { "type": "water", "rating": 3 },
       { "type": "fire", "rating": 2 },
@@ -895,7 +897,7 @@
     "elements": ["None"],
     "ailments": ["None"],
     "resistances": ["Water"],
-    "threat_level": 3,
+    "threat_level": 0,
     "weaknesses": [
       { "type": "fire", "rating": 3 },
       { "type": "thunder", "rating": 2 },
@@ -981,7 +983,7 @@
     "elements": ["None"],
     "ailments": ["None"],
     "resistances": ["None"],
-    "threat_level": 3,
+    "threat_level": 0,
     "weaknesses": [
       { "type": "water", "rating": 3 },
       { "type": "fire", "rating": 2 },
@@ -1011,7 +1013,7 @@
     "elements": ["Fire"],
     "ailments": ["Fireblight"],
     "resistances": ["Thunder", "Fire", "Ice when in gold"],
-    "threat_level": 3,
+    "threat_level": 0,
     "weaknesses": [
       { "type": "ice", "rating": 3 },
       { "type": "water", "rating": 2 },
@@ -1143,7 +1145,7 @@
     "elements": ["None"],
     "ailments": ["Bleeding"],
     "resistances": ["Water", "Sleep"],
-    "threat_level": 3,
+    "threat_level": 0,
     "weaknesses": [
       { "type": "fire", "rating": 3 },
       { "type": "dragon", "rating": 2 },
@@ -1678,7 +1680,7 @@
     "elements": ["Fire", "Dragon"],
     "ailments": ["Fireblight", "Dragonblight"],
     "resistances": ["None"],
-    "threat_level": 3,
+    "threat_level": 0,
     "weaknesses": [
       { "type": "dragon", "rating": 3, "trait": "elderseal" },
       { "type": "thunder", "rating": 2 },
@@ -1832,7 +1834,7 @@
     "elements": ["None"],
     "ailments": ["None"],
     "resistances": ["Sleep", "Thunder"],
-    "threat_level": 3,
+    "threat_level": 0,
     "weaknesses": [
       { "type": "ice", "rating": 3 },
       { "type": "water", "rating": 2 },
@@ -2068,7 +2070,7 @@
     "elements": ["Thunder"],
     "ailments": ["Stun"],
     "resistances": ["None"],
-    "threat_level": 3,
+    "threat_level": 0,
     "weaknesses": [
       { "type": "thunder", "rating": 3 },
       { "type": "ice", "rating": 3 },
@@ -2232,7 +2234,7 @@
     "elements": ["Dragon", "Fire"],
     "ailments": ["Fireblight", "Dragonblight"],
     "resistances": ["Sleep"],
-    "threat_level": 3,
+    "threat_level": 0,
     "weaknesses": [
       { "type": "poison", "rating": 3 },
       { "type": "fire", "rating": 2 },
@@ -2261,7 +2263,7 @@
     "elements": ["Fire"],
     "ailments": ["Fireblight", "Poison"],
     "resistances": ["Thunder", "Fire"],
-    "threat_level": 3,
+    "threat_level": 0,
     "weaknesses": [
       { "type": "water", "rating": 3 },
       { "type": "dragon", "rating": 2 },
@@ -2322,7 +2324,7 @@
     "elements": ["Fire"],
     "ailments": ["Fireblight"],
     "resistances": ["Fire", "Poison", "Sleep", "Paralysis", "Blast", "Stun"],
-    "threat_level": 3,
+    "threat_level": 0,
     "weaknesses": [
       { "type": "dragon", "rating": 3 },
       { "type": "water", "rating": 3 },
@@ -2380,7 +2382,7 @@
       "Dragonblight"
     ],
     "resistances": ["Fire (Fire Active)", "Ice (Ice Active)"],
-    "threat_level": 3,
+    "threat_level": 0,
     "weaknesses": [
       { "type": "dragon", "rating": 1, "trait": "fire active" },
       { "type": "ice", "rating": 3, "trait": "fire active" },
@@ -2417,7 +2419,7 @@
     "elements": ["Fire"],
     "ailments": ["Fireblight"],
     "resistances": ["Stun"],
-    "threat_level": 3,
+    "threat_level": 0,
     "weaknesses": [
       { "type": "dragon", "rating": 3 },
       { "type": "ice", "rating": 1 },
