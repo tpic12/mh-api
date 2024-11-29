@@ -22,6 +22,7 @@ module Rise
       end
 
       def call
+        # what am I doing here?
         return unless monsters = build_query
         
         filtered_monsters = apply_filters(monsters)
