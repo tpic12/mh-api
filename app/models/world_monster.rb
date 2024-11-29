@@ -27,7 +27,7 @@ class WorldMonster
   index({ species: 1 })
   index({ 'locations.name' => 1 })
 
-  def is_tempered(locale)
+  def is_tempered?(locale)
     return false unless locale.present?
 
     fz = FuzzyMatch.new(locations, :read => :name)

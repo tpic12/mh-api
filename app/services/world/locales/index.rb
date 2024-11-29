@@ -52,7 +52,7 @@ module World
 
       def reduce_by_threat_level(monsters)
         monsters.each_with_object(Hash.new { |h, k| h[k] = [] }) do |monster, hash|
-          monster_data = { name: monster.name, tempered: monster.is_tempered(@locale) }
+          monster_data = { name: monster.name, tempered: monster.is_tempered?(@locale) }
           hash[monster.threat_level] << monster_data
         end
       end
@@ -73,9 +73,9 @@ module World
       end
 
       def reduce_by_species(monsters)
-        monsters.each_with_object(Hash.new {|h, k| h[k] = []}) do |monster, hash|
-          monster_data = { name: monster.name, tempered: monster.is_tempered(@locale) }
-          hash[monster.species] << monster_data
+        stuff = monsters.each_with_object(Hash.new {|h, k| h[k] = []}) do |monster, hash|
+          monster["tempered": monster.is_tempered?(@locale)]
+          hash[monster.species] << monster
         end
       end
     end
