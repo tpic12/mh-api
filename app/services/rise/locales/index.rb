@@ -18,13 +18,16 @@ module Rise
       def initialize(params)
         @locale = params["locale"]
         @by_threat_level = params&.[]("filter")&.[]("by_threat_level")
+        @by_species = params&.[]("filter")&.[]("by_species")
       end
 
       def call
         return unless monsters = build_query
+        
+        filtered_monsters = apply_filters(monsters)
 
         {
-          monsterList: apply_filters(monsters),
+          monsterList: sort_list(filtered_monsters),
           localeObject: reduce_locale_object(monsters)
         }
       end
@@ -37,9 +40,25 @@ module Rise
       end
 
       def apply_filters(monsters)
-        return monsters unless @by_threat_level
+        if @by_threat_level
+          reduce_by_threat_level(monsters)
+        elsif @by_species
+          reduce_by_species(monsters)
+        else
+          monsters
+        end
+      end
 
-        reduce_by_threat_level(monsters)
+      def reduce_by_threat_level(monsters)
+        monsters.group_by { |mon| mon.threat_level }
+      end
+
+      def reduce_by_species(monsters)
+        monsters.group_by { |mon| mon.species }
+      end
+
+      def sort_list(list)
+        list.sort_by { |key| key }.to_h
       end
 
       def locale_match
@@ -48,13 +67,6 @@ module Rise
 
       def monsters_by_locale
         RiseMonster.where("locations.name": "#{locale_match}")
-      end
-
-      def reduce_by_threat_level(monsters)
-        monsters.each_with_object(Hash.new { |h, k| h[k] = [] }) do |monster, hash|
-          monster_data = { name: monster.name }
-          hash[monster.threat_level] << monster_data
-        end
       end
 
       def reduce_locale_object(monsters)

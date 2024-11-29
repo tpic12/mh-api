@@ -16,7 +16,7 @@ module World
       def initialize(params)
         @locale = params["locale"]
         @by_threat_level = params&.[]("filter")&.[]("by_threat_level")
-        # @by_threat_level = params.dig("filter", "by_threat_level")
+        @by_species = params&.[]("filter")&.[]("by_species")
       end
 
       def call
@@ -40,9 +40,10 @@ module World
       end
 
       def apply_filters(monsters)
-        return monsters unless @by_threat_level
+        return monsters unless @by_threat_level || @by_species
 
-        reduce_by_threat_level(monsters)
+        reduce_by_threat_level(monsters) if @by_threat_level
+        reduce_by_species(monsters) if @by_species
       end
 
       def monsters_by_locale
@@ -51,7 +52,7 @@ module World
 
       def reduce_by_threat_level(monsters)
         monsters.each_with_object(Hash.new { |h, k| h[k] = [] }) do |monster, hash|
-          monster_data = { name: monster.name, tempered: monster.is_tempered(@locale) }
+          monster_data = { name: monster.name, tempered: monster.is_tempered?(@locale) }
           hash[monster.threat_level] << monster_data
         end
       end
@@ -68,6 +69,13 @@ module World
             final_location["color"] ||= location["color"]
             final_location["icon"] ||= location["icon"]
           end
+        end
+      end
+
+      def reduce_by_species(monsters)
+        stuff = monsters.each_with_object(Hash.new {|h, k| h[k] = []}) do |monster, hash|
+          monster["tempered": monster.is_tempered?(@locale)]
+          hash[monster.species] << monster
         end
       end
     end
