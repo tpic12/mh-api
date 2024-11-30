@@ -5,8 +5,10 @@ module World
     class Index < BaseService
 
       option :locale, Types::String
-      option :by_threat_level, Types::Bool, optional: true, default: false
-      option :by_species, Types::Bool, optional: true, default: false
+      option :filter do
+        option :by_threat_level, Types::Bool, optional: true, default: false
+        option :by_species, Types::Bool, optional: true, default: false
+      end
 
       LOCALES = [
         "Forest Region",
@@ -35,9 +37,9 @@ module World
       end
 
       def apply_filters(monsters)
-        if by_threat_level
+        if filter.by_threat_level
           reduce_by_threat_level(monsters)
-        elsif by_species
+        elsif filter.by_species
           reduce_by_species(monsters)
         else
           monsters
