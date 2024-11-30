@@ -2,7 +2,13 @@ require "fuzzy_match"
 
 module Rise
   module Locales
-    class Index
+    class Index < BaseService
+
+      option :locale, Types::String
+      option :filter do
+        option :by_threat_level, Types::Bool, optional: true, default: false
+        option :by_species, Types::Bool, optional: true, default: false
+      end
 
       LOCALES = [
         "Shrine Ruins",
@@ -15,14 +21,10 @@ module Rise
         "Frost Islands"
       ].freeze
 
-      def initialize(params)
-        @locale = params["locale"]
-        @by_threat_level = params&.[]("filter")&.[]("by_threat_level")
-        @by_species = params&.[]("filter")&.[]("by_species")
-      end
-
       def call
-        return unless monsters = build_query
+        return if locale.blank?
+
+        monsters = monsters_by_locale
         
         filtered_monsters = apply_filters(monsters)
 
@@ -34,15 +36,10 @@ module Rise
 
       private
 
-      def build_query
-        return if @locale.blank?
-        monsters_by_locale
-      end
-
       def apply_filters(monsters)
-        if @by_threat_level
+        if filter.by_threat_level
           reduce_by_threat_level(monsters)
-        elsif @by_species
+        elsif filter.by_species
           reduce_by_species(monsters)
         else
           monsters
@@ -62,16 +59,16 @@ module Rise
       end
 
       def locale_match
-        @locale_match ||= FuzzyMatch.new(LOCALES).find(@locale)
+        @locale_match ||= FuzzyMatch.new(LOCALES).find(locale)
       end
 
       def monsters_by_locale
-        RiseMonster.where("locations.name": "#{locale_match}")
+        RiseMonster.where("locations.name": locale_match)
       end
 
       def reduce_locale_object(monsters)
         fuzzy_match = FuzzyMatch.new(monsters.first.locations, read: :name)
-        matched_locale = fuzzy_match.find(@locale)
+        matched_locale = fuzzy_match.find(locale)
 
         monsters.each_with_object({}) do |monster, final_location|
           monster.locations.each do |location|
