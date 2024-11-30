@@ -2,7 +2,11 @@ require "fuzzy_match"
 
 module World
   module Locales
-    class Index
+    class Index < BaseService
+
+      option :locale, Types::String
+      option :by_threat_level, Types::Bool, optional: true, default: false
+      option :by_species, Types::Bool, optional: true, default: false
 
       LOCALES = [
         "Forest Region",
@@ -13,14 +17,10 @@ module World
         "Tundra Region"
       ].freeze
 
-      def initialize(params)
-        @locale = params["locale"]
-        @by_threat_level = params&.[]("filter")&.[]("by_threat_level")
-        @by_species = params&.[]("filter")&.[]("by_species")
-      end
-
       def call
-        return unless monsters = build_query
+        return if locale.blank?
+
+        monsters = monsters_by_locale
 
         {
           monsterList: apply_filters(monsters),
@@ -31,19 +31,17 @@ module World
       private
 
       def locale_match
-        @locale_match ||= FuzzyMatch.new(LOCALES).find(@locale)
-      end
-
-      def build_query
-        return if @locale.blank?
-        monsters_by_locale
+        @locale_match ||= FuzzyMatch.new(LOCALES).find(locale)
       end
 
       def apply_filters(monsters)
-        return monsters unless @by_threat_level || @by_species
-
-        reduce_by_threat_level(monsters) if @by_threat_level
-        reduce_by_species(monsters) if @by_species
+        if by_threat_level
+          reduce_by_threat_level(monsters)
+        elsif by_species
+          reduce_by_species(monsters)
+        else
+          monsters
+        end
       end
 
       def monsters_by_locale
@@ -52,14 +50,16 @@ module World
 
       def reduce_by_threat_level(monsters)
         monsters.each_with_object(Hash.new { |h, k| h[k] = [] }) do |monster, hash|
-          monster_data = { name: monster.name, tempered: monster.is_tempered?(@locale) }
+          # monster_data = { name: monster.name, tempered: monster.is_tempered?(locale) }
+          monster_data = monster.clone
+          monster_data["tempered"] = monster.is_tempered?(locale)
           hash[monster.threat_level] << monster_data
         end
       end
 
       def reduce_locale_object(monsters)
         fuzzy_match = FuzzyMatch.new(monsters.first.locations, read: :name)
-        matched_locale = fuzzy_match.find(@locale)
+        matched_locale = fuzzy_match.find(locale)
 
         monsters.each_with_object({}) do |monster, final_location|
           monster.locations.each do |location|
@@ -73,9 +73,10 @@ module World
       end
 
       def reduce_by_species(monsters)
-        stuff = monsters.each_with_object(Hash.new {|h, k| h[k] = []}) do |monster, hash|
-          monster["tempered": monster.is_tempered?(@locale)]
-          hash[monster.species] << monster
+        monsters.each_with_object(Hash.new {|h, k| h[k] = []}) do |monster, hash|
+          monster_data = monster.clone
+          monster_data["tempered"] = monster.is_tempered?(locale)
+          hash[monster.species] << monster_data
         end
       end
     end
